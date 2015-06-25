@@ -243,6 +243,10 @@ iframe {
     border: none;
 }
 
+.justify {
+  text-align: justify;
+}
+
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -554,7 +558,7 @@ main.main {
   background-position-x: 50%;
   background-position-y: -15%;
   background-repeat: no-repeat;
-  background-image: url("/edu_landing/img/unreal-logo.png");
+  background-image: url("../../img/unreal-logo.png");
 }
 
 .menu {
@@ -861,7 +865,9 @@ main.main {
   z-index: 2;
 }
 
-
+.feature-list p {
+  text-align: justify;
+}
 
 
 

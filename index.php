@@ -231,8 +231,8 @@
                     <div class="row">
                         <div class="col-lg-12 text-center">
                             <div class="section-head">
-                                <h2 class="section-title title-1">Amazing Features</h2>
-                                <p>Whatever artisan Bushwick keytar, street art readymade direct trade single-origin coffee Helvetica banh mi butcher cliche try-hard. Authentic street art bitters whatever twee typewriter locavore leggings retro bespoke jean shorts.</p>
+                                <h2 class="section-title title-1">Incríveis Diferenciais</h2>
+                                <p>Nós acreditamos que um curso só é bom quando dá garantias e não deixa o ex-aluno sem amparo na hora que as dificuldades aperam. Acreditamos no potencial de cada um de nossos alunos e gostamos de ouvir o como pensam e o que pensam, suas idemas e sonhos/ambições.</p>
                             </div>
                         </div>
                     </div>
@@ -241,66 +241,72 @@
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div class="feature-list">
                                     <div class="icon-area wow rotateIn animated">
-                                        <i class="ion-android-phone-portrait"></i>
+                                        <i class="fa fa-mortar-board"></i>
                                     </div>
                                     <div class="f-content-area">
-                                        <h3 class="title">Sound Alerts</h3>
-                                        <p class="pera">Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                        <h3 class="title">Monitorias</h3>
+                                        <p class="pera">
+                                          Prestamos monitorias extra e/ou do conteúdo,
+                                          <strong class="yellow-text text-darken-4">podendo conter taxas adicionais</strong>.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div class="feature-list">
                                     <div class="icon-area wow rotateIn animated">
-                                        <i class="ion-volume-low"></i>
+                                        <i class="fa fa-comments"></i>
                                     </div>
                                     <div class="f-content-area">
-                                        <h3 class="title">Intutive Statistics</h3>
-                                        <p class="pera">Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                        <h3 class="title">Consultorias</h3>
+                                        <p class="pera">
+                                          Prestamos análise e consultoria a ex-alunos (projetos e trabalhos),
+                                          <strong class="teal-text">podendo ser GRÁTIS</strong>.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div class="feature-list">
                                     <div class="icon-area wow rotateIn animated">
-                                        <i class="ion-ios-bell"></i>
+                                        <i class="fa fa-bullhorn"></i>
                                     </div>
                                     <div class="f-content-area">
-                                        <h3 class="title">Camera Enabaled</h3>
-                                        <p class="pera">Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                        <h3 class="title">Propaganda</h3>
+                                        <p class="pera">Nossos alunos são o espelho do nosso trabalho. Por isso os indicamos.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div class="feature-list">
                                     <div class="icon-area wow rotateIn animated">
-                                        <i class="ion-settings"></i>
+                                        <i class="fa fa-cube"></i>
                                     </div>
                                     <div class="f-content-area">
-                                        <h3 class="title">Camera Enabaled</h3>
-                                        <p class="pera">Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                        <h3 class="title">Projeto de Código Aberto</h3>
+                                        <p class="pera">Apoiamos e construímos com os alunos Framework, código aberto (a ciência em TI).</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div class="feature-list">
                                     <div class="icon-area wow rotateIn animated">
-                                        <i class="ion-arrow-graph-up-right"></i>
+                                        <i class="fa fa-cubes"></i>
                                     </div>
                                     <div class="f-content-area">
-                                        <h3 class="title">Camera Enabaled</h3>
-                                        <p class="pera">Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                        <h3 class="title">Projetos Internos</h3>
+                                        <p class="pera">Oportunidade em Projetos com a Rent$, <strong class="green-text text-darken-1"> ex-aluno sendo remunerado e/ou sócio</strong>.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div class="feature-list">
                                     <div class="icon-area wow rotateIn animated">
-                                        <i class="ion-camera"></i>
+                                        <i class="fa fa-ticket"></i>
                                     </div>
                                     <div class="f-content-area">
-                                        <h3 class="title">Camera Enabaled</h3>
-                                        <p class="pera">Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                        <h3 class="title">Promoção para ex-alunos</h3>
+                                        <p class="pera">Descontos via Sorteio/Todos ex-alunos em cursos futuros. <strong class="yellow-text text-darken-4">A depender do curso</strong>.</p>
                                     </div>
                                 </div>
                             </div>
