@@ -6,20 +6,20 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Appmate - App landing Template</title>
-        
-        <meta name="description" content="Awesome bootstrap based app landing template">
-        
+        <title>Rent$ Payments - Educational</title>
+
+        <meta name="description" content="Curso presencial em Brasília de Jogos Digitais para o Ensino médio">
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="favicon.ico">
 
         <!-- Stylesheets -->
         <link rel="stylesheet" href="assets/css/materialize.min.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        
+
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/ionicons.min.css">
-        
+
         <link rel="stylesheet" href="assets/css/fonts.css">
         <link rel="stylesheet" href="assets/css/animate.min.css">
         <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css">
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <p class="loading-title">Loading...</p>
+                <p class="loading-title">Carregando...</p>
             </div>
         </div>
         <!-- Loader end -->
@@ -78,11 +78,11 @@
         <!-- Header Menu start -->
         <header class="main-header">
             <!-- desktop menu -->
-            <div class="header-big-screen hidden-sm hidden-xs">
+            <div class="header-big-screen hidden-sm hidden-xs black">
                 <div class="container">
                     <div class="header-inner clearfix">
                         <a href="#home" data-section="#home" class="logo menu-smooth-scroll">
-                            <img src="img/logo.png" alt="logo">
+                            <img src="img/EduBrand.png" alt="logo">
                         </a>
                         <nav class="menu">
                             <ul>
@@ -140,32 +140,35 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <h2 class="heading">FRIENDLY TEMPLATE FOR YOUR APP</h2>
-                                    <h3 class="sub-heading" id="banner-slider-controller">Awesome feature inside. <a href="#download" data-section="#download" class="menu-smooth-scroll">Download</a> this app and see what you are missing.<br/>Avaiable on <i class="ion-social-apple"></i> <i class="ion-social-android"></i> <i class="ion-social-windows"></i></h3>
+                                    <h2 class="heading">Desenvolvimento de Jogos 2D para dispositivos móveis</h2>
+                                    <h3 class="sub-heading" id="banner-slider-controller">Aprenda a programar desenvolvendo jogos para as maiores plataformas móveis do mundo
+                                      <br>
+                                      <i class="ion-social-apple"></i> <i class="ion-social-android"></i> <i class="ion-social-windows"></i>
+                                    </h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="banner-feature">
                         <div class="banner-feature-list">
+                            <i class="fa fa-globe"></i>
+                            <h3 class="title">Introdução ao Mundo 2D</h3>
+                        </div>
+                        <div class="banner-feature-list">
+                            <i class="fa fa-code"></i>
+                            <h3 class="title">Introdução a Programação</h3>
+                        </div>
+                        <div class="banner-feature-list">
+                            <div class="unreal-brand"></div>
+                            <h3 class="title">Introdução à Unreal</h3>
+                        </div>
+                        <div class="banner-feature-list">
                             <i class="ion-iphone"></i>
-                            <h3 class="title">Responsive Design</h3>
+                            <h3 class="title">Deploy no Dispositivo</h3>
                         </div>
                         <div class="banner-feature-list">
-                            <i class="ion-ios-bell"></i>
-                            <h3 class="title">Notifications Viewing</h3>
-                        </div>
-                        <div class="banner-feature-list">
-                            <i class="ion-settings"></i>
-                            <h3 class="title">Advanced Settings</h3>
-                        </div>
-                        <div class="banner-feature-list">
-                            <i class="ion-volume-high"></i>
-                            <h3 class="title">Sound Alerts</h3>
-                        </div>
-                        <div class="banner-feature-list">
-                            <i class="ion-stats-bars"></i>
-                            <h3 class="title">Intutive Statistics</h3>
+                            <i class="fa fa-cloud-upload"></i>
+                            <h3 class="title">Publicação</h3>
                         </div>
                     </div>
                 </div>
@@ -1164,9 +1167,7 @@
         <script type="text/javascript" src="assets/js/vendor/jquery.easing.1.3.js"></script>
         <script type="text/javascript" src="assets/js/vendor/bootstrap.min.js"></script>
         <script type="text/javascript" src="assets/js/vendor/materialize.min.js"></script>
-        <script type="text/javascript" src="assets/js/vendor/jquery.nicescroll.min.js"></script>
         <script type="text/javascript" src="assets/js/vendor/waypoints.js"></script>
-        <script type="text/javascript" src="assets/js/vendor/wow.min.js"></script>
 
         <script type="text/javascript" src="assets/js/vendor/jquery.easing.1.3.js"></script>
         <script type="text/javascript" src="assets/js/vendor/matchMedia.js"></script>
