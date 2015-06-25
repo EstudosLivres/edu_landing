@@ -550,8 +550,9 @@ main.main {
 
 .unreal-brand {
   min-height: 60px;
-  background-size: 25%;
-  background-position: 50%;
+  background-size: 30%;
+  background-position-x: 50%;
+  background-position-y: -15%;
   background-repeat: no-repeat;
   background-image: url("/edu_landing/img/unreal-logo.png");
 }
@@ -1097,13 +1098,22 @@ main.main {
 }
 
 .thumb-area img:nth-child(1) {
-    left: 76px;
+    top: 85px;
+    left: 120px;
     z-index: 2;
 }
 .thumb-area img:nth-child(2) {
-    right: 76px;
+    right: 120px;
     position: absolute;
-    top: 21px;
+    top: -80px;
+}
+
+.thumb-area img.no-left-space {
+  left: 0;
+}
+
+.thumb-area img.rotate {
+  transform: rotate(90deg) !important;
 }
 
 .content a {}

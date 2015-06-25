@@ -183,38 +183,36 @@
                         <div class="why-section-col col-lg-6 col-md-6 col-sm-6 hidden-xs">
                             <div class="why-slider" id="whySlider">
                                 <div class="thumb-area">
-                                    <img src="img/iphone-01.png" alt="">
-                                    <img src="img/iphone-small-01.png" alt="">
+                                    <img src="img/flipbook.gif" alt="">
                                 </div>
                                 <div class="thumb-area">
-                                    <img src="img/iphone-02.png" alt="">
-                                    <img src="img/iphone-small-02.png" alt="">
+                                  <img src="img/CodeSample.png" class="no-left-space" alt="">
                                 </div>
                                 <div class="thumb-area">
-                                    <img src="img/iphone-01.png" alt="">
-                                    <img src="img/iphone-small-01.png" alt="">
+                                    <img src="img/iphone-01-EDITED.png" class="rotate" alt="">
+                                    <img src="img/android-01-EDITED.png" class="rotate" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="why-section-col col-lg-5 col-md-5 col-sm-6 col-xs-12">
-                            <header><h2 class="section-title title-2">Why this app?</h2></header>
+                            <header><h2 class="section-title title-2">O esperar do curso?</h2></header>
                             <ul class="app-reasion-lists" id="why-feature-lists">
                                 <li>
                                     <a href="#">
-                                        <span class="btn left-area waves-light waves-effect"><i class="ion-android-playstore"></i></span>
-                                        <span class="right-area">Conveniently pursue highly efficient deliverables rather than vertical intellectual.</span>
+                                        <span class="btn left-area waves-light waves-effect"><i class="fa fa-globe"></i></span>
+                                        <span class="right-area">Aula expositiva e prática das técnicas mais usadas no mundo 2D, como nos Desenhos animados da Disney.</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <span class="btn left-area waves-light waves-effect"><i class="ion-android-bus"></i></span>
-                                        <span class="right-area">Globally whiteboard out-of-the-box e-tailers rather than ubiquitous technologies. Quickly.</span>
+                                        <span class="btn left-area waves-light waves-effect"><i class="fa fa-code"></i></span>
+                                        <span class="right-area">Lógica e boas práticas de programação. Estruturas de repetição, de condições e funções, além de animações.</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <span class="btn left-area waves-light waves-effect"><i class="ion-coffee"></i></span>
-                                        <span class="right-area">Authoritatively formulate go forward platforms whereas optimal data. Intrinsicly.</span>
+                                        <span class="btn left-area waves-light waves-effect"><i class="ion-iphone"></i></span>
+                                        <span class="right-area">Exemplo de jogo que será feito durante o curso na parte prática de uso da Unreal Engine Environment (UE4).</span>
                                     </a>
                                 </li>
                             </ul>
