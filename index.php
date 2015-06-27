@@ -246,8 +246,7 @@
                                     <div class="f-content-area">
                                         <h3 class="title">Monitorias</h3>
                                         <p class="pera">
-                                          Prestamos monitorias extra e/ou do conteúdo,
-                                          <strong class="yellow-text text-darken-4">podendo conter taxas adicionais</strong>.
+                                          Monitorias <strong class="teal-text">gratuitas</strong> sobre os tópicos como abordados durante o curso.
                                         </p>
                                     </div>
                                 </div>
@@ -260,7 +259,7 @@
                                     <div class="f-content-area">
                                         <h3 class="title">Consultorias</h3>
                                         <p class="pera">
-                                          Prestamos análise e consultoria a ex-alunos (projetos e trabalhos),
+                                          Análise e consultoria a ex-alunos (projetos e trabalhos),
                                           <strong class="teal-text">podendo ser GRÁTIS</strong>.
                                         </p>
                                     </div>
@@ -272,7 +271,7 @@
                                         <i class="fa fa-bullhorn"></i>
                                     </div>
                                     <div class="f-content-area">
-                                        <h3 class="title">Propaganda</h3>
+                                        <h3 class="title">Indicação</h3>
                                         <p class="pera">Nossos alunos são o espelho do nosso trabalho. Por isso os indicamos.</p>
                                     </div>
                                 </div>
@@ -284,7 +283,7 @@
                                     </div>
                                     <div class="f-content-area">
                                         <h3 class="title">Projeto de Código Aberto</h3>
-                                        <p class="pera">Apoiamos e construímos com os alunos Framework, código aberto (a ciência em TI).</p>
+                                        <p class="pera">Apoiamos e construímos com os alunos Frameworks de código aberto (Ciência + TI).</p>
                                     </div>
                                 </div>
                             </div>
@@ -295,7 +294,7 @@
                                     </div>
                                     <div class="f-content-area">
                                         <h3 class="title">Projetos Internos</h3>
-                                        <p class="pera">Oportunidade em Projetos com a Rent$, <strong class="green-text text-darken-1"> ex-aluno sendo remunerado e/ou sócio</strong>.</p>
+                                        <p class="pera">Oportunidade em Projetos com a Rent$, <strong class="teal-text"> contratação remunerada de ex-alunos</strong>.</p>
                                     </div>
                                 </div>
                             </div>
@@ -306,7 +305,7 @@
                                     </div>
                                     <div class="f-content-area">
                                         <h3 class="title">Promoção para ex-alunos</h3>
-                                        <p class="pera">Descontos via Sorteio/Todos ex-alunos em cursos futuros. <strong class="yellow-text text-darken-4">A depender do curso</strong>.</p>
+                                        <p class="pera">Desconto para ex-alunos nos próximos cursos.</p>
                                     </div>
                                 </div>
                             </div>
@@ -317,133 +316,10 @@
             <!-- Amazing Feature Section end -->
 
 
-            <!-- App Brief Section start -->
-            <section class="app-brief" id="app-brief-slider">
 
-                <!-- single App Brief Article start -->
-                <article class="section-space hidden-overflow section-bg-02 app-brief-article left-thumb">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 visible-xs">
-                                <div class="content">
-                                    <header><h2 class="section-title title-2">App Brief</h2></header>
-                                    <p>Whatever artisan Bushwick keytar, street art readymade direct trade single-origin coffee Helvetica banh mi butcher cliche try-hard. Authentic street art bitters<br>whatever twee typewriter locavore leggings retro bespoke jean shorts.</p>
-                                    <ul>
-                                        <li>Reliable and Secure Platform</li>
-                                        <li>Everything is perfectly orgainized for future</li>
-                                        <li>Fontawesome Icon</li>
-                                        <li>Step on the new level</li>
-                                        <li>Pure &amp; Simple</li>
-                                        <li>Creative Design</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="thumb-area">
-                                    <img src="img/iphone-01.png" alt="" class="wow slideInLeft" data-wow-delay=".5s">
-                                    <img src="img/iphone-small-01.png" alt="" class="wow slideInLeft" data-wow-delay=".4s">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-xs">
-                                <div class="content">
-                                    <header><h2 class="section-title title-2">App Brief</h2></header>
-                                    <p>Whatever artisan Bushwick keytar, street art readymade direct trade single-origin coffee Helvetica banh mi butcher cliche try-hard. Authentic street art bitters<br>whatever twee typewriter locavore leggings retro bespoke jean shorts.</p>
-                                    <ul>
-                                        <li>Reliable and Secure Platform</li>
-                                        <li>Everything is perfectly orgainized for future</li>
-                                        <li>Fontawesome Icon</li>
-                                        <li>Step on the new level</li>
-                                        <li>Pure &amp; Simple</li>
-                                        <li>Creative Design</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <!-- single App Brief Article end -->
-
-
-                <!-- single App Brief Article start -->
-                <article class="section-space hidden-overflow section-bg-02 app-brief-article left-thumb">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 visible-xs">
-                                <div class="content">
-                                    <header><h2 class="section-title title-2">App Brief</h2></header>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
-
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="thumb-area">
-                                    <img src="img/iphone-02.png" alt="" class="" data-wow-delay=".4s">
-                                    <img src="img/iphone-small-02.png" alt="" class="" data-wow-delay=".5s">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-xs">
-                                <div class="content">
-                                    <header><h2 class="section-title title-2">App Brief</h2></header>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
-
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <!-- single App Brief Article end -->
-
-                <!-- single App Brief Article start -->
-                <article class="section-space hidden-overflow section-bg-02 app-brief-article left-thumb">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 visible-xs">
-                                <div class="content">
-                                    <header><h2 class="section-title title-2">App Brief</h2></header>
-                                    <p>Whatever artisan Bushwick keytar, street art readymade direct trade single-origin coffee Helvetica banh mi butcher cliche try-hard. Authentic street art bitters<br>whatever twee typewriter locavore leggings retro bespoke jean shorts.</p>
-                                    <ul>
-                                        <li>Reliable and Secure Platform</li>
-                                        <li>Everything is perfectly orgainized for future</li>
-                                        <li>Fontawesome Icon</li>
-                                        <li>Step on the new level</li>
-                                        <li>Pure &amp; Simple</li>
-                                        <li>Creative Design</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="thumb-area">
-                                    <img src="img/iphone-01.png" alt="" class="wow slideInLeft" data-wow-delay=".5s">
-                                    <img src="img/iphone-small-01.png" alt="" class="wow slideInLeft" data-wow-delay=".4s">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-xs">
-                                <div class="content">
-                                    <header><h2 class="section-title title-2">App Brief</h2></header>
-                                    <p>Whatever artisan Bushwick keytar, street art readymade direct trade single-origin coffee Helvetica banh mi butcher cliche try-hard. Authentic street art bitters<br>whatever twee typewriter locavore leggings retro bespoke jean shorts.</p>
-                                    <ul>
-                                        <li>Reliable and Secure Platform</li>
-                                        <li>Everything is perfectly orgainized for future</li>
-                                        <li>Fontawesome Icon</li>
-                                        <li>Step on the new level</li>
-                                        <li>Pure &amp; Simple</li>
-                                        <li>Creative Design</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <!-- single App Brief Article end -->
-
-            </section>
-            <!-- App Brief Section end -->
-
-
-            <!-- Statistics Section start -->
-            <section class="statistics statistics-01 text-center color-white">
+            <!-- Statistics Section start TODO interessante de usar no futuo, não agora -->
+            <!--
+              <section class="statistics statistics-01 text-center color-white">
                 <div class="section-relative section-space">
                     <div class="overlay overlay-four"></div>
                     <div class="overlay-content">
@@ -498,11 +374,14 @@
                     </div>
                 </div>
             </section>
-            <!-- Statistics Section end -->
+            -->
+          <!-- Statistics Section end -->
 
 
-            <!-- Screenshot Section start -->
-            <section id="screenshot" class="scroll-section section-space screenshot">
+
+            <!-- Screenshot Section start TODO interessante se eu conseguir montar um jogo e por as telas dele aqui -->
+            <!--
+              <section id="screenshot" class="scroll-section section-space screenshot">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">
@@ -554,34 +433,14 @@
                     </div>
                 </div>
             </section>
+            -->
             <!-- Screenshot Section end -->
 
 
-            <!-- Video Section start -->
-            <section class="video-section section-bg-01 section-space">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-10">
-                            <div class="section-head">
-                                <h2 class="section-title title-2">See A Video</h2>
-                                <p>Conveniently grow client-focused best practices after e-business leadership. Objectively brand collaborative internal or "organic" sources before revolutionary e-markets. Conveniently harness cross-unit expertise and market positioning materials.</p>
-                                <div class="video-buttons">
-                                    <a href="#" class="btn th-btn th-btn-medium bg-brand color-white waves-effect">Download</a>
-                                    <a href="#" class="btn th-btn th-btn-medium bg-white color-brand waves-effect">Features</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-10 video-area">
-                            <iframe src="//player.vimeo.com/video/90299717" width="554" height="313"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Video Section end -->
 
-
-            <!-- Testimonial Section start -->
-            <section class="testimonial">
+            <!-- Testimonial Section start TODO interessante depois da primeira turma -->
+            <!--
+              <section class="testimonial">
                 <div class="section-relative section-space">
                     <div class="overlay overlay-four"></div>
                     <div class="overlay-content">
@@ -657,6 +516,7 @@
                     </div>
                 </div>
             </section>
+            -->
             <!-- Testimonial Section end -->
 
 
@@ -667,29 +527,34 @@
                         <div class="row">
                             <div class="col-lg-12 text-center">
                                 <div class="section-head">
-                                    <h2 class="section-title title-1">Affordable Packages</h2>
-                                    <p>We want the template you downloaded look unique and new for such a long time as it is possible.</p>
+                                    <h2 class="section-title title-1">Preços por Estilo</h2>
+                                    <p>Nós disponibilizamos preços que se flexibilizam em função do estilo/tipo do aluno, escolha o que mais se enquadra para você.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="row pricing-table-item-wrap">
                             <section class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                <div class="single-pricing-table pricing-table-style-one basic wow fadeInUpSmall" data-wow-offset="200">
+                                <div class="amber accent-4 black-text single-pricing-table pricing-table-style-one basic wow fadeInUpSmall" data-wow-offset="200">
                                     <div class="pricing-container">
                                         <div class="p-t-header">
-                                            <h3 class="pricing-title color-brand">Basic</h3>
+                                            <h3 class="pricing-title">Ouro</h3>
+                                            <div class="best-tag color-brand z-depth-1">Melhor</div>
                                         </div>
                                         <div class="p-t-body">
+                                            <p class="justify"></p>
                                             <ul>
-                                                <li>Responsive</li>
-                                                <li>Documentation</li>
-                                                <li>Multiplatform</li>
-                                                <li class="not-include">Video background</li>
-                                                <li class="not-include">Support</li>
+                                                <li class="black-text"> <i class="fa fa-check"></i> Material Didático</li>
+                                                <li class="black-text"> <i class="fa fa-check"></i> Monitoria</li>
+                                                <li class="black-text"> <i class="fa fa-check"></i> Consultoria</li>
+                                                <li class="black-text"> <i class="fa fa-check"></i> Indicação</li>
+                                                <li class="black-text"> <i class="fa fa-check"></i> Certificado</li>
+                                                <li class="black-text"> <i class="fa fa-check"></i> Plataform Virtual de Auxílio</li>
+                                                <li class="black-text"> <i class="fa fa-check"></i> Plataform Virtual de Acompanhamento de Rendimento</li>
+                                                <li class="black-text"> <i class="fa fa-check"></i> 10h de aulas extras virtual</li>
                                             </ul>
                                         </div>
                                         <div class="p-t-footer clearfix">
-                                            <div class="price color-brand"><span class="currency">$</span><span>2.99</span></div>
+                                            <div class="price black-text"><span class="currency">R$</span><span>1.500,00</span></div>
                                             <div class="button">
                                                 <button class="btn th-btn th-btn-medium th-btn-parent">Select</button>
                                             </div>
@@ -698,23 +563,23 @@
                                 </div>
                             </section>
                             <section class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                <div class="bg-brand single-pricing-table pricing-table-style-one best wow fadeInUpSmall" data-wow-offset="200" data-wow-delay=".2s">
+                                <div class="blue-grey lighten-3 black-text single-pricing-table pricing-table-style-one best wow fadeInUpSmall" data-wow-offset="200" data-wow-delay=".2s">
                                     <div class="pricing-container">
                                         <div class="p-t-header">
-                                            <h3 class="pricing-title">Standard</h3>
-                                            <div class="best-tag color-brand z-depth-1">Best</div>
+                                            <h3 class="pricing-title">Prata</h3>
                                         </div>
                                         <div class="p-t-body">
+                                            <p class="justify"></p>
                                             <ul>
-                                                <li>Responsive</li>
-                                                <li>Documentation</li>
-                                                <li>Multiplatform</li>
-                                                <li>Video background</li>
-                                                <li class="not-include">Support</li>
+                                                <li class="black-text"> <i class="fa fa-check"></i> Material Didático</li>
+                                                <li class="black-text"> <i class="fa fa-check"></i> Monitoria</li>
+                                                <li class="black-text"> <i class="fa fa-check"></i> Certificado</li>
+                                                <li class="black-text"> <i class="fa fa-check"></i> Plataform Virtual de Acompanhamento de Rendimento</li>
+                                                <li class="black-text"> <i class="fa fa-check"></i> 5h de aulas extras virtual</li>
                                             </ul>
                                         </div>
                                         <div class="p-t-footer clearfix">
-                                            <div class="price"><span class="currency">$</span><span>3.99</span></div>
+                                            <div class="price"><span class="currency">R$</span><span>1.000,00</span></div>
                                             <div class="button">
                                                 <button class="btn th-btn th-btn-medium th-btn-parent">Select</button>
                                             </div>
@@ -723,22 +588,20 @@
                                 </div>
                             </section>
                             <section class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                <div class="single-pricing-table pricing-table-style-one pro wow fadeInUpSmall" data-wow-offset="200" data-wow-delay=".4s">
+                                <div class="cooper black-text single-pricing-table pricing-table-style-one pro wow fadeInUpSmall" data-wow-offset="200" data-wow-delay=".4s">
                                     <div class="pricing-container">
                                         <div class="p-t-header">
-                                            <h3 class="pricing-title color-brand">Pro</h3>
+                                            <h3 class="pricing-title">Bronze</h3>
                                         </div>
                                         <div class="p-t-body">
-                                            <ul>
-                                                <li>Responsive</li>
-                                                <li>Documentation</li>
-                                                <li>Multiplatform</li>
-                                                <li>Video background</li>
-                                                <li>Support</li>
-                                            </ul>
+                                          <ul>
+                                              <li class="black-text"> <i class="fa fa-check"></i> Material Didático</li>
+                                              <li class="black-text"> <i class="fa fa-check"></i> Monitoria</li>
+                                              <li class="black-text"> <i class="fa fa-check"></i> Certificado</li>
+                                          </ul>
                                         </div>
                                         <div class="p-t-footer clearfix">
-                                            <div class="price color-brand"><span class="currency">$</span><span>6.99</span></div>
+                                            <div class="price"><span class="currency">R$</span><span>750,00</span></div>
                                             <div class="button">
                                                 <button class="btn th-btn th-btn-medium th-btn-parent">Select</button>
                                             </div>
