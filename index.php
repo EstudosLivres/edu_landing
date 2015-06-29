@@ -86,14 +86,15 @@
                         </a>
                         <nav class="menu">
                             <ul>
-                                <li><a href="#why" data-section="#why" class="menu-smooth-scroll">Why</a></li>
-                                <li><a href="#features" data-section="#features" class="menu-smooth-scroll">Features</a></li>
-                                <li><a href="#screenshot" data-section="#screenshot" class="menu-smooth-scroll">Screens</a></li>
-                                <li><a href="#packages" data-section="#packages" class="menu-smooth-scroll">Packages</a></li>
-                                <li><a href="#download" data-section="#download" class="menu-smooth-scroll">Download</a></li>
-                                <li><a href="#team" data-section="#team" class="menu-smooth-scroll">Team</a></li>
-                                <li><a href="#blog" data-section="#blog" class="menu-smooth-scroll">Blog</a></li>
-                                <li><a href="#contact" data-section="#contact" class="menu-smooth-scroll">Contact</a></li>
+                                <li><a href="#why" data-section="#why" class="menu-smooth-scroll">Curso</a></li>
+                                <li><a href="#features" data-section="#features" class="menu-smooth-scroll">Diferenciais</a></li>
+                                <!-- <li><a href="#screenshot" data-section="#screenshot" class="menu-smooth-scroll">Screens</a></li> -->
+                                <li><a href="#packages" data-section="#packages" class="menu-smooth-scroll">Preços</a></li>
+                                <li><a href="#payment-method" data-section="#payment-method" class="menu-smooth-scroll">Pagamento</a></li>
+                                <!-- <li><a href="#download" data-section="#download" class="menu-smooth-scroll">Download</a></li> -->
+                                <li><a href="#team" data-section="#team" class="menu-smooth-scroll">Professor</a></li>
+                                <!-- <li><a href="#blog" data-section="#blog" class="menu-smooth-scroll">Blog</a></li> -->
+                                <li><a href="#contact" data-section="#contact" class="menu-smooth-scroll">Encontre</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -534,29 +535,31 @@
                         </div>
                         <div class="row pricing-table-item-wrap">
                             <section class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                <div class="amber accent-4 black-text single-pricing-table pricing-table-style-one basic wow fadeInUpSmall" data-wow-offset="200">
+                                <div class="amber accent-4 <?php echo $text_color; ?> single-pricing-table pricing-table-style-one basic wow fadeInUpSmall" data-wow-offset="200">
                                     <div class="pricing-container">
-                                        <div class="p-t-header">
+                                        <div class="p-t-header white-text">
                                             <h3 class="pricing-title">Ouro</h3>
                                             <div class="best-tag color-brand z-depth-1">Melhor</div>
                                         </div>
                                         <div class="p-t-body">
                                             <p class="justify"></p>
                                             <ul>
-                                                <li class="black-text"> <i class="fa fa-check"></i> Material Didático</li>
-                                                <li class="black-text"> <i class="fa fa-check"></i> Monitoria</li>
-                                                <li class="black-text"> <i class="fa fa-check"></i> Consultoria</li>
-                                                <li class="black-text"> <i class="fa fa-check"></i> Indicação</li>
-                                                <li class="black-text"> <i class="fa fa-check"></i> Certificado</li>
-                                                <li class="black-text"> <i class="fa fa-check"></i> Plataform Virtual de Auxílio</li>
-                                                <li class="black-text"> <i class="fa fa-check"></i> Plataform Virtual de Acompanhamento de Rendimento</li>
-                                                <li class="black-text"> <i class="fa fa-check"></i> 10h de aulas extras virtual</li>
+                                                <li> <i class="fa fa-check"></i> Material Didático</li>
+                                                <li> <i class="fa fa-check"></i> Monitoria</li>
+                                                <li> <i class="fa fa-check"></i> Consultoria</li>
+                                                <li> <i class="fa fa-check"></i> Indicação</li>
+                                                <li> <i class="fa fa-check"></i> Certificado</li>
+                                                <li> <i class="fa fa-check"></i> Plataform Virtual de Auxílio</li>
+                                                <li> <i class="fa fa-check"></i> Plataform Virtual de Acompanhamento de Rendimento</li>
+                                                <li> <i class="fa fa-check"></i> 10h de aulas extras virtual</li>
                                             </ul>
                                         </div>
-                                        <div class="p-t-footer clearfix">
-                                            <div class="price black-text"><span class="currency">R$</span><span>1.500,00</span></div>
+                                        <div class="p-t-footer clearfix white-text">
+                                            <div class="row">
+                                              <div class="price"><span class="currency">R$</span><span>1.500,00</span></div>
+                                            </div>
                                             <div class="button">
-                                                <button class="btn th-btn th-btn-medium th-btn-parent">Select</button>
+                                                <button class="btn th-btn th-btn-medium th-btn-parent white deep-purple-text">Select</button>
                                             </div>
                                         </div>
                                     </div>
@@ -565,23 +568,25 @@
                             <section class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div class="blue-grey lighten-3 black-text single-pricing-table pricing-table-style-one best wow fadeInUpSmall" data-wow-offset="200" data-wow-delay=".2s">
                                     <div class="pricing-container">
-                                        <div class="p-t-header">
+                                        <div class="p-t-header white-text">
                                             <h3 class="pricing-title">Prata</h3>
                                         </div>
                                         <div class="p-t-body">
                                             <p class="justify"></p>
                                             <ul>
-                                                <li class="black-text"> <i class="fa fa-check"></i> Material Didático</li>
-                                                <li class="black-text"> <i class="fa fa-check"></i> Monitoria</li>
-                                                <li class="black-text"> <i class="fa fa-check"></i> Certificado</li>
-                                                <li class="black-text"> <i class="fa fa-check"></i> Plataform Virtual de Acompanhamento de Rendimento</li>
-                                                <li class="black-text"> <i class="fa fa-check"></i> 5h de aulas extras virtual</li>
+                                                <li> <i class="fa fa-check"></i> Material Didático</li>
+                                                <li> <i class="fa fa-check"></i> Monitoria</li>
+                                                <li> <i class="fa fa-check"></i> Certificado</li>
+                                                <li> <i class="fa fa-check"></i> Plataform Virtual de Acompanhamento de Rendimento</li>
+                                                <li> <i class="fa fa-check"></i> 5h de aulas extras virtual</li>
                                             </ul>
                                         </div>
-                                        <div class="p-t-footer clearfix">
-                                            <div class="price"><span class="currency">R$</span><span>1.000,00</span></div>
+                                        <div class="p-t-footer clearfix white-text">
+                                            <div class="row">
+                                              <div class="price"><span class="currency">R$</span><span>1.000,00</span></div>
+                                            </div>
                                             <div class="button">
-                                                <button class="btn th-btn th-btn-medium th-btn-parent">Select</button>
+                                                <button class="btn th-btn th-btn-medium th-btn-parent white deep-purple-text">Select</button>
                                             </div>
                                         </div>
                                     </div>
@@ -590,20 +595,22 @@
                             <section class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div class="cooper black-text single-pricing-table pricing-table-style-one pro wow fadeInUpSmall" data-wow-offset="200" data-wow-delay=".4s">
                                     <div class="pricing-container">
-                                        <div class="p-t-header">
+                                        <div class="p-t-header white-text">
                                             <h3 class="pricing-title">Bronze</h3>
                                         </div>
                                         <div class="p-t-body">
                                           <ul>
-                                              <li class="black-text"> <i class="fa fa-check"></i> Material Didático</li>
-                                              <li class="black-text"> <i class="fa fa-check"></i> Monitoria</li>
-                                              <li class="black-text"> <i class="fa fa-check"></i> Certificado</li>
+                                              <li> <i class="fa fa-check"></i> Material Didático</li>
+                                              <li> <i class="fa fa-check"></i> Monitoria</li>
+                                              <li> <i class="fa fa-check"></i> Certificado</li>
                                           </ul>
                                         </div>
-                                        <div class="p-t-footer clearfix">
-                                            <div class="price"><span class="currency">R$</span><span>750,00</span></div>
+                                        <div class="p-t-footer clearfix white-text">
+                                            <div class="row">
+                                              <div class="price"><span class="currency">R$</span><span>750,00</span></div>
+                                            </div>
                                             <div class="button">
-                                                <button class="btn th-btn th-btn-medium th-btn-parent">Select</button>
+                                                <button class="btn th-btn th-btn-medium th-btn-parent white deep-purple-text">Select</button>
                                             </div>
                                         </div>
                                     </div>
@@ -617,30 +624,59 @@
 
 
             <!-- Special Offer Section start -->
-            <section class="special-offer section-space-top hidden-overflow section-bg-01">
+            <!-- Interessante para promoção
+              <section class="special-offer section-space-top hidden-overflow section-bg-01">
+                  <div class="container">
+                      <div class="offer-content-wrapper clearfix">
+                          <div class="offer-left-area hidden-xs">
+                              <div class="offer-image-area">
+                                  <img src="img/iphone-offer.png" alt="offer image">
+                              </div>
+                          </div>
+                          <div class="offer-right-area">
+                              <div class="offer-content">
+                                  <div class="offer-abs-bg wow bounceInDown" data-wow-delay=".3s"><i class="fa fa-gift big-font"></i></div>
+                                  <h2>Special<span>Offer</span></h2>
+                                  <h3>Get <span>5% discount</span> from <span>21 Oct 2014</span> to  <span>25 Oct 2014</span> </h3>
+                                  <p>Integer tincidunt. Nunc nec neque. In hac habitasse platea dictumst. Ut non enim eleifend felis pretium feugiat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                                  <a href="#" class="btn th-btn th-btn-medium th-btn-default bg-brand">Get Offer</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+            -->
+            <!-- Special Offer Section end -->
+
+
+            <!-- Special Payment conditions -->
+            <section id="payment-method" class="special-offer section-space-top hidden-overflow section-bg-01">
                 <div class="container">
                     <div class="offer-content-wrapper clearfix">
                         <div class="offer-left-area hidden-xs">
                             <div class="offer-image-area">
-                                <img src="img/iphone-offer.png" alt="offer image">
+                                <img src="img/iphone-payments-conditions.png" alt="offer image">
                             </div>
                         </div>
                         <div class="offer-right-area">
                             <div class="offer-content">
                                 <div class="offer-abs-bg wow bounceInDown" data-wow-delay=".3s"><i class="fa fa-gift big-font"></i></div>
-                                <h2>Special<span>Offer</span></h2>
-                                <h3>Get <span>5% discount</span> from <span>21 Oct 2014</span> to  <span>25 Oct 2014</span> </h3>
-                                <p>Integer tincidunt. Nunc nec neque. In hac habitasse platea dictumst. Ut non enim eleifend felis pretium feugiat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                                <a href="#" class="btn th-btn th-btn-medium th-btn-default bg-brand">Get Offer</a>
+                                <h2>Condições<span>Especiais</span></h2>
+                                <h3>Ganhe <span>3% de desconto</span> no <span>boleto</span></h3>
+                                <h3>Ganhe <span>1% de desconto</span> no <span>cartão de débito</span></h3>
+                                <h3>Parcele em <span>12x sem juros</span> no <span>cartão de crédito</span></h3>
+                                <p>Valores válidos somente mediante compra direta do nosso sistema Web de pagamento.</p>
+                                <a href="#" class="btn th-btn th-btn-medium th-btn-default bg-brand">comprar agora</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- Special Offer Section end -->
+            <!-- Special Payment conditions -->
 
 
             <!-- Download Section start -->
+            <!-- Interessante em aplicações que tenham app para download
             <section id="download" class="scroll-section download text-center">
                 <div class="section-relative section-space">
                     <div class="overlay overlay-four"></div>
@@ -676,6 +712,7 @@
                     </div>
                 </div>
             </section>
+            -->
             <!-- Download Section end -->
 
 
@@ -685,95 +722,74 @@
                     <div class="row">
                         <div class="col-lg-12 text-center">
                             <div class="section-head">
-                                <h2 class="section-title title-1">Our Team</h2>
-                                <p>Whatever artisan Bushwick keytar, street art readymade direct trade single-origin coffee Helvetica banh mi butcher cliche try-hard. Authentic street art bitters whatever twee typewriter locavore leggings retro bespoke jean shorts.</p>
+                                <h2 class="section-title title-1">Professor</h2>
+                                <p>
+                                  <strong>Pós-Graduação:</strong> Engenharia de Software - Universidade Municipal de São Carlos |
+                                  <strong>WEB:</strong> 3 anos |
+                                  <strong>MobileApps:</strong> 4 anos |
+                                  <strong>Jogos:</strong> 2 anos
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="row team-members-wrap">
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xxs-12">
                             <div class="single-team-wrap team-theme-01 text-center wow fadeInUpSmall">
                                 <div class="single-team">
                                     <div class="team-member-img">
-                                        <img src="http://placehold.it/220x250" alt="Team member pic">
+                                        <img src="img/Trab-Logo-ZP.png" alt="Team member pic">
                                     </div>
                                     <div class="team-member-info">
                                         <div class="info-area-top">
                                             <ul class="social team-social">
-                                                <li><a href="#" class="btn color-brand bg-white"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#" class="btn color-brand bg-white"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#" class="btn color-brand bg-white"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a href="https://play.google.com/store/apps/details?id=br.com.zeropaper.app" target="_blank" class="btn color-brand bg-white"><i class="fa fa-android"></i></a></li>
+                                                <li><a href="https://itunes.apple.com/br/app/zeropaper/id892377391?mt=8" target="_blank" class="btn color-brand bg-white"><i class="fa fa-apple"></i></a></li>
                                             </ul>
                                         </div>
                                         <div class="info-area-bottom">
-                                            <h3 class="t-m-name">Jonh Doe</h3>
-                                            <h5 class="t-m-designation">Team Leader</h5>
+                                            <h3 class="t-m-name">ZeroPaper</h3>
+                                            <h5 class="t-m-designation">Ruby On Rails & PhoneGap</h5>
+                                            <h5 class="t-m-designation">WEB & Mobile</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xxs-12">
                             <div class="single-team-wrap team-theme-01 text-center wow fadeInUpSmall" data-wow-delay=".2s">
                                 <div class="single-team">
                                     <div class="team-member-img">
-                                        <img src="http://placehold.it/220x250" alt="Team member pic">
+                                        <img src="img/Trab-Logo-PGS.png" alt="Team member pic">
                                     </div>
                                     <div class="team-member-info">
                                         <div class="info-area-top">
                                             <ul class="social team-social">
-                                                <li><a href="#" class="btn color-brand bg-white"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#" class="btn color-brand bg-white"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#" class="btn color-brand bg-white"><i class="fa fa-google-plus"></i></a></li>
+                                                <li></li>
                                             </ul>
                                         </div>
                                         <div class="info-area-bottom">
-                                            <h3 class="t-m-name">Ben Taylor</h3>
-                                            <h5 class="t-m-designation">Lead Developer</h5>
+                                            <h3 class="t-m-name">PGS</h3>
+                                            <h5 class="t-m-designation">Ruby On Rails - WEB</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xxs-12">
                             <div class="single-team-wrap team-theme-01 text-center wow fadeInUpSmall" data-wow-delay=".4s">
                                 <div class="single-team">
                                     <div class="team-member-img">
-                                        <img src="http://placehold.it/220x250" alt="Team member pic">
+                                        <img src="img/Trab-Logo-BB.png" alt="Team member pic">
                                     </div>
                                     <div class="team-member-info">
                                         <div class="info-area-top">
                                             <ul class="social team-social">
-                                                <li><a href="#" class="btn color-brand bg-white"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#" class="btn color-brand bg-white"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#" class="btn color-brand bg-white"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a target="_blank" href="https://play.google.com/store/apps/details?id=br.com.bb.oewallet" class="btn color-brand bg-white"><i class="fa fa-android"></i></a></li>
                                             </ul>
                                         </div>
                                         <div class="info-area-bottom">
-                                            <h3 class="t-m-name">Kevin Stevens</h3>
-                                            <h5 class="t-m-designation">Lead Designer</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12">
-                            <div class="single-team-wrap team-theme-01 text-center wow fadeInUpSmall" data-wow-delay=".6s">
-                                <div class="single-team">
-                                    <div class="team-member-img">
-                                        <img src="http://placehold.it/220x250" alt="Team member pic">
-                                    </div>
-                                    <div class="team-member-info">
-                                        <div class="info-area-top">
-                                            <ul class="social team-social">
-                                                <li><a href="#" class="btn color-brand bg-white"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#" class="btn color-brand bg-white"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#" class="btn color-brand bg-white"><i class="fa fa-google-plus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="info-area-bottom">
-                                            <h3 class="t-m-name">Kelley Baldenegro</h3>
-                                            <h5 class="t-m-designation">Project Manager</h5>
+                                            <h3 class="t-m-name">OuroCard-e</h3>
+                                            <h5 class="t-m-designation">Android - Mobile - BB</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -786,6 +802,7 @@
 
 
             <!-- Blog Section start -->
+            <!--
             <section id="blog" class="scroll-section blog-section section-space">
                 <div class="container">
                     <div class="row">
@@ -853,10 +870,12 @@
                     </div>
                 </div>
             </section>
+            -->
             <!-- Blog Section end -->
 
 
             <!-- Newsletter Section start -->
+            <!--
             <section class="news-letter hidden-overflow">
                 <div class="section-relative section-space">
                     <div class="overlay overlay-four"></div>
@@ -877,10 +896,12 @@
                     </div>
                 </div>
             </section>
+            -->
             <!-- Newsletter Section end -->
 
 
             <!-- Tweet Section start -->
+            <!--
             <section class="tweet-section section-space hidden-overflow">
                 <div class="container-width">
                     <div class="container text-center">
@@ -898,13 +919,14 @@
                     <a href="#" class="slider-arrow left-arrow tweets-arrow"><i class="fa fa-angle-left"></i></a>
                 </div>
             </section>
+            -->
             <!-- Tweet Section end -->
 
 
             <!-- Map And Contact Section start -->
             <section class="map-section">
                 <div class="map-header-area overlay-brand">
-                    <h2>Find Us On Google Map</h2>
+                    <h2>Encontre-nos no Google Map</h2>
                 </div>
 
                 <!-- Map Area start -->
@@ -1019,7 +1041,7 @@
             </div>
             <div class="bottom">
                 <div class="container">
-                    <p>&copy; 2015 apppick. All Rights Reserved.</p>
+                    <p>&copy; 2015 Rent$ Educational. All Rights Reserved.</p>
                 </div>
             </div>
         </footer>
@@ -1058,6 +1080,9 @@
         <script type="text/javascript" src="assets/js/settings.js"></script>
         <script>
             $('#youtubeVideobg').tubular({videoId: 'hFjOiAkN8ew'});
+        </script>
+        <script type="text/javascript">
+          $("a[href^=#]").click(function(e) { e.preventDefault(); var dest = $(this).attr('href'); console.log(dest); $('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow'); });
         </script>
     </body>
 </html>

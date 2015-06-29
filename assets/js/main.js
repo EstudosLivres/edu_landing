@@ -206,7 +206,7 @@ function fixFeaturesHeight(){
 			$(this).css('left', '100%').removeClass('inactive');
 		});
 	}
-	
+
 	if ( $('#whySlider:visible').length > 0 ) {
 		var sliderWrap = $('#whySlider:visible'),
 			slideItems = sliderWrap.children(),
@@ -302,7 +302,7 @@ if ( jQuery.browser.mobile !== true && typeof jQuery.stellar === 'function') {
 	function getActiveSectionLength(section, sections) {
 		return sections.index(section);
 	}
-	
+
 	if ( sections.length > 0 ) {
 
 
@@ -508,8 +508,8 @@ if ( jQuery.browser.mobile === true ) {
 if ( $mapWrapper.length > 0 ) {
 	var map = new GMaps({
 		div: '#map',
-		lat : 23.79473005386213, // Provide your longtitude
-		lng : 90.41430473327637,  // Provide your longtitude
+		lat : -15.7900592, // Provide your longtitude
+		lng : -47.887272,  // Provide your longtitude
 		scrollwheel: false,
 		draggable: draggableOp,
 		zoom: 16,
@@ -518,11 +518,11 @@ if ( $mapWrapper.length > 0 ) {
 	});
 
 	map.addMarker({
-		lat : 23.79473005386213, // Provide your longtitude
-		lng : 90.41430473327637, // Provide your longtitude
+		lat : -15.7900592, // Provide your longtitude
+		lng : -47.887272,  // Provide your longtitude
 		icon: 'img/marker.png',
 		infoWindow: {
-			content: '<p>this is some text</p>' // Provide your address to show on pop up
+			content: '<p>SHN Quadra 2, Asa Norte Brasília-DF.</p><p>4º andar, sala 425.</p>' // Provide your address to show on pop up
 		}
 	});
 }
@@ -546,7 +546,7 @@ $(window).load(function(){
 
 
 	/*============ Fix Banner Height ============*/
-	
+
 	fixBannerHeight();
 
 
@@ -664,6 +664,6 @@ $(window).resize(function(){
 				mchimpMessageArea.removeClass('success').addClass('error').html('<p>Please enter a valid email address.</p>').slideDown();
 			}
 		},
-		url: "https://coderpixel.us10.list-manage.com/subscribe/post?u=3918a7d4d5fe9e4c1baa3d912&amp;id=1a52016f23" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".  
+		url: "https://coderpixel.us10.list-manage.com/subscribe/post?u=3918a7d4d5fe9e4c1baa3d912&amp;id=1a52016f23" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
 	});
 }(jQuery));
