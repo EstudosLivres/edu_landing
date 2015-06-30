@@ -317,210 +317,6 @@
             <!-- Amazing Feature Section end -->
 
 
-
-            <!-- Statistics Section start TODO interessante de usar no futuo, não agora -->
-            <!--
-              <section class="statistics statistics-01 text-center color-white">
-                <div class="section-relative section-space">
-                    <div class="overlay overlay-four"></div>
-                    <div class="overlay-content">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12">
-                                    <div class="statistic-area">
-                                        <div class="top">
-                                            <i class="ion-coffee"></i>
-                                            <h3 class="number countNumb" data-from="1" data-to="1200">1200</h3>
-                                        </div>
-                                        <div class="bottom">
-                                            <p class="text">Cups of coffee</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12">
-                                    <div class="statistic-area">
-                                        <div class="top">
-                                            <i class="ion-happy"></i>
-                                            <h3 class="number countNumb" data-from="1" data-to="2500">2500</h3>
-                                        </div>
-                                        <div class="bottom">
-                                            <p class="text">Happy clients</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12">
-                                    <div class="statistic-area">
-                                        <div class="top">
-                                            <i class="ion-ios-briefcase"></i>
-                                            <h3 class="number countNumb" data-from="1" data-to="3500">3500</h3>
-                                        </div>
-                                        <div class="bottom">
-                                            <p class="text">Projects delivered</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12">
-                                    <div class="statistic-area">
-                                        <div class="top">
-                                            <i class="ion-network"></i>
-                                            <h3 class="number countNumb" data-from="1" data-to="9000">9000</h3>
-                                        </div>
-                                        <div class="bottom">
-                                            <p class="text">Lines of code</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            -->
-          <!-- Statistics Section end -->
-
-
-
-            <!-- Screenshot Section start TODO interessante se eu conseguir montar um jogo e por as telas dele aqui -->
-            <!--
-              <section id="screenshot" class="scroll-section section-space screenshot">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <div class="section-head">
-                                <h2 class="section-title title-1">Screenshot Gallery</h2>
-                                <p>Whatever artisan Bushwick keytar, street art readymade direct trade single-origin coffee .</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="screenshoot-wrapper">
-                    <div class="container-width">
-                        <div class="container">
-                            <div class="screenshoot-area">
-                                <div id="screenshoot_slider" class="screenshoot-slider">
-                                    <div class="single-screenshoot"><img src="img/screenshoot-01.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-02.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-03.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-04.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-05.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-01.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-02.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-03.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-04.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-05.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-01.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-02.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-03.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-04.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-05.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-01.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-02.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-03.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-04.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-05.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-01.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-02.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-03.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-04.jpg" alt="screenshoot"></div>
-                                    <div class="single-screenshoot"><img src="img/screenshoot-05.jpg" alt="screenshoot"></div>
-                                </div>
-                                <div class="mobile-bg hidden-xs">
-                                    <img src="img/iphone-no-screen.png" alt="iphone with no bg">
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#" class="slider-arrow right-arrow screenshoot-arrow"><i class="fa fa-angle-right"></i></a>
-                        <a href="#" class="slider-arrow left-arrow screenshoot-arrow"><i class="fa fa-angle-left"></i></a>
-                    </div>
-                </div>
-            </section>
-            -->
-            <!-- Screenshot Section end -->
-
-
-
-            <!-- Testimonial Section start TODO interessante depois da primeira turma -->
-            <!--
-              <section class="testimonial">
-                <div class="section-relative section-space">
-                    <div class="overlay overlay-four"></div>
-                    <div class="overlay-content">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12 text-center">
-                                    <div class="section-head">
-                                        <h2 class="section-title title-1 color-white">Testimonial</h2>
-                                        <p>Lets see what say clients about us</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="testimonial" class="testimoinal-slider">
-                            <div class="single-testimonial">
-                                <div class="container">
-                                    <div class="tes-thumbnail-area wow bounceIn" data-wow-delay=".5s" data-wow-deration=".8s" data-wow-offset="150">
-                                        <div class="tes-thumbnail-outer">
-                                            <img class="tes-thumb-img" src="http://placehold.it/250x250" alt="testimonial thumb">
-                                        </div>
-                                        <span class="thumb-icon-area z-depth-1"><i class="fa fa-quote-left"></i></span>
-                                    </div>
-                                    <blockquote>
-                                        <div class="blockquote-text">
-                                            <p>Whatever artisan Bushwick keytar, street art readymade direct trade single-origin coffee Helvetica banh mi butcher cliche try-hard. Authentic street art bitters whatever twee typewriter locavore leggings retro bespoke jean shorts.</p>
-                                        </div>
-                                        <cite>Ekhtiar Mahmud, <span>BDinfosys</span></cite>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <div class="single-testimonial">
-                                <div class="container">
-                                    <div class="tes-thumbnail-area wow bounceIn" data-wow-delay=".5s" data-wow-deration=".8s" data-wow-offset="150">
-                                        <div class="tes-thumbnail-outer">
-                                            <img class="tes-thumb-img" src="http://placehold.it/250x250" alt="testimonial thumb">
-                                        </div>
-                                        <span class="thumb-icon-area z-depth-1"><i class="fa fa-quote-left"></i></span>
-                                    </div>
-                                    <blockquote>
-                                        <div class="blockquote-text">
-                                            <p>Whatever artisan Bushwick keytar, street art readymade direct trade single-origin coffee Helvetica banh mi butcher cliche try-hard. Authentic street art bitters whatever twee typewriter locavore leggings retro bespoke jean shorts.</p>
-                                        </div>
-                                        <cite>Ekhtiar Mahmud, <span>BDinfosys</span></cite>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <div class="single-testimonial">
-                                <div class="container">
-                                    <div class="tes-thumbnail-area wow bounceIn" data-wow-delay=".5s" data-wow-deration=".8s" data-wow-offset="150">
-                                        <div class="tes-thumbnail-outer">
-                                            <img class="tes-thumb-img" src="http://placehold.it/250x250" alt="testimonial thumb">
-                                        </div>
-                                        <span class="thumb-icon-area z-depth-1"><i class="fa fa-quote-left"></i></span>
-                                    </div>
-                                    <blockquote>
-                                        <div class="blockquote-text">
-                                            <p>Whatever artisan Bushwick keytar, street art readymade direct trade single-origin coffee Helvetica banh mi butcher cliche try-hard. Authentic street art bitters whatever twee typewriter locavore leggings retro bespoke jean shorts.</p>
-                                        </div>
-                                        <cite>Ekhtiar Mahmud, <span>BDinfosys</span></cite>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="tes-thumb-ctrl-area">
-                                <ul class="tes-thumb-ctrl-lists" id="testimonial-thumb-ctrl">
-                                    <li class="active"><a href=""><img src="http://placehold.it/220x250" alt="testimonial thumb"><div class="tes-thumb-overlay"></div></a></li>
-                                    <li class=""><a href=""><img src="http://placehold.it/220x250" alt="testimonial thumb"><div class="tes-thumb-overlay"></div></a></li>
-                                    <li class=""><a href=""><img src="http://placehold.it/220x250" alt="testimonial thumb"><div class="tes-thumb-overlay"></div></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            -->
-            <!-- Testimonial Section end -->
-
-
             <!-- Pricing Table Section start -->
             <section id="packages" class="scroll-section pricing-table section-space hidden-overflow">
                 <div class="overlay-content">
@@ -623,32 +419,6 @@
             <!-- Pricing Table Section end -->
 
 
-            <!-- Special Offer Section start -->
-            <!-- Interessante para promoção
-              <section class="special-offer section-space-top hidden-overflow section-bg-01">
-                  <div class="container">
-                      <div class="offer-content-wrapper clearfix">
-                          <div class="offer-left-area hidden-xs">
-                              <div class="offer-image-area">
-                                  <img src="img/iphone-offer.png" alt="offer image">
-                              </div>
-                          </div>
-                          <div class="offer-right-area">
-                              <div class="offer-content">
-                                  <div class="offer-abs-bg wow bounceInDown" data-wow-delay=".3s"><i class="fa fa-gift big-font"></i></div>
-                                  <h2>Special<span>Offer</span></h2>
-                                  <h3>Get <span>5% discount</span> from <span>21 Oct 2014</span> to  <span>25 Oct 2014</span> </h3>
-                                  <p>Integer tincidunt. Nunc nec neque. In hac habitasse platea dictumst. Ut non enim eleifend felis pretium feugiat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                                  <a href="#" class="btn th-btn th-btn-medium th-btn-default bg-brand">Get Offer</a>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </section>
-            -->
-            <!-- Special Offer Section end -->
-
-
             <!-- Special Payment conditions -->
             <section id="payment-method" class="special-offer section-space-top hidden-overflow section-bg-01">
                 <div class="container">
@@ -673,47 +443,6 @@
                 </div>
             </section>
             <!-- Special Payment conditions -->
-
-
-            <!-- Download Section start -->
-            <!-- Interessante em aplicações que tenham app para download
-            <section id="download" class="scroll-section download text-center">
-                <div class="section-relative section-space">
-                    <div class="overlay overlay-four"></div>
-                    <div class="overlay-content">
-                        <div class="container">
-                            <div class="section-head only-title">
-                                <h2 class="section-title title-1 color-white">Download the Appick</h2>
-                            </div>
-                            <div class="download-buttons">
-                                <a href="#" class="btn">
-                                    <span class="left-area"><i class="fa fa-apple"></i></span>
-                                    <span class="right-area">
-                                        <span class="top-area">Download for</span>
-                                        <span class="bottom-area">Apple iOS</span>
-                                    </span>
-                                </a>
-                                <a href="#" class="btn">
-                                    <span class="left-area"><i class="fa fa-android"></i></span>
-                                    <span class="right-area">
-                                        <span class="top-area">Download for</span>
-                                        <span class="bottom-area">Android</span>
-                                    </span>
-                                </a>
-                                <a href="#" class="btn">
-                                    <span class="left-area"><i class="fa fa-windows"></i></span>
-                                    <span class="right-area">
-                                        <span class="top-area">Download for</span>
-                                        <span class="bottom-area">Windows</span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            -->
-            <!-- Download Section end -->
 
 
             <!-- Team Member Section start -->
@@ -801,128 +530,6 @@
             <!-- Team Member Section end -->
 
 
-            <!-- Blog Section start -->
-            <!--
-            <section id="blog" class="scroll-section blog-section section-space">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <div class="section-head">
-                                <h2 class="section-title title-1">From the Blog</h2>
-                                <p>Whatever artisan Bushwick keytar, street art readymade direct trade single-origin coffee Helvetica banh mi butcher cliche try-hard. Authentic street art bitters whatever twee typewriter locavore leggings retro bespoke jean shorts.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row home-blog-posts" id="blog-posts">
-                        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single-post">
-                            <div class="single-blog-post theme01 z-depth-1">
-                                <div class="blog-post-thumb-container">
-                                    <a href="single-image.html" class="blog-post-thumb-permalink"><img src="http://placehold.it/320x185 " alt="blog post thumbnail" class="blog-post-thumbnail"></a>
-                                </div>
-                                <a href="#" class="blog-post-title-permalink"><h3 class="blog-post-title">The Post Tiltle</h3></a>
-                                <header><h5 class="blog-post-meta">By <a href="#" title="Posted by Admin">Admin</a> | 24 Oct 2014</h5></header>
-                                <div class="blog-post-content">
-                                    <p>Nullam vel sem. In turpis. Etiam vitae tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Cum sociis natoque penatibus et magnis dis parturient montq, nascetur ridiculus mus.</p>
-                                </div>
-                                <div class="blog-post-bottom-meta clearfix">
-                                    <a href="#" class="pull-left comment-link">3 Comments</a>
-                                    <a href="#" class="pull-right js-favorite favorite-link" title="Love this"><span><i class="ion-heart"></i></span> <span class="numb">112</span></a>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single-post">
-                            <div class="single-blog-post theme01 z-depth-1">
-                                <div class="blog-post-thumb-container">
-                                    <a href="single-image.html" class="blog-post-thumb-permalink"><img src="http://placehold.it/320x185 " alt="blog post thumbnail" class="blog-post-thumbnail"></a>
-                                </div>
-                                <a href="#" class="blog-post-title-permalink"><h3 class="blog-post-title">The Post Tiltle</h3></a>
-                                <header><h5 class="blog-post-meta">By <a href="#" title="Posted by Admin">Admin</a> | 24 Oct 2014</h5></header>
-                                <div class="blog-post-content">
-                                    <p>Nullam vel sem. In turpis. Etiam vitae tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Cum sociis natoque penatibus et magnis dis parturient montq, nascetur ridiculus mus.</p>
-                                </div>
-                                <div class="blog-post-bottom-meta clearfix">
-                                    <a href="#" class="pull-left comment-link">3 Comments</a>
-                                    <a href="#" class="pull-right js-favorite favorite-link" title="Love this"><span><i class="ion-heart"></i></span> <span class="numb">112</span></a>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 single-post">
-                            <div class="single-blog-post theme01 z-depth-1">
-                                <div class="blog-post-thumb-container">
-                                    <a href="single-image.html" class="blog-post-thumb-permalink"><img src="http://placehold.it/320x185 " alt="blog post thumbnail" class="blog-post-thumbnail"></a>
-                                </div>
-                                <a href="#" class="blog-post-title-permalink"><h3 class="blog-post-title">The Post Tiltle</h3></a>
-                                <header><h5 class="blog-post-meta">By <a href="#" title="Posted by Admin">Admin</a> | 24 Oct 2014</h5></header>
-                                <div class="blog-post-content">
-                                    <p>Nullam vel sem. In turpis. Etiam vitae tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Cum sociis natoque penatibus et magnis dis parturient montq, nascetur ridiculus mus.</p>
-                                </div>
-                                <div class="blog-post-bottom-meta clearfix">
-                                    <a href="#" class="pull-left comment-link">3 Comments</a>
-                                    <a href="#" class="pull-right js-favorite favorite-link" title="Love this"><span><i class="ion-heart"></i></span> <span class="numb">112</span></a>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="row">
-                        <div class="dol-lg-12 text-center">
-                            <a href="blog-standard.html" class="btn th-btn th-btn-medium bg-brand color-white wow fadeInUpSmall">View All</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            -->
-            <!-- Blog Section end -->
-
-
-            <!-- Newsletter Section start -->
-            <!--
-            <section class="news-letter hidden-overflow">
-                <div class="section-relative section-space">
-                    <div class="overlay overlay-four"></div>
-                    <div class="overlay-content">
-                        <div class="container text-center">
-                            <div class="section-head only-title">
-                                <h2 class="section-title title-1 color-white">Newsletter</h2>
-                            </div>
-                            <div class="newsletter-form-area">
-                                <form class="mailchimpForm" action="#">
-                                    <div class="mail-icon"><i class="ion-android-mail"></i></div>
-                                    <input type="email" placeholder="Enter your email">
-                                    <input type="submit">
-                                </form>
-                                <div class="mailchimp-form-message" style="display:none"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            -->
-            <!-- Newsletter Section end -->
-
-
-            <!-- Tweet Section start -->
-            <!--
-            <section class="tweet-section section-space hidden-overflow">
-                <div class="container-width">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="twitter-header section-head only-title">
-                                    <i class="fa fa-twitter twitter-icon wow bounceInDown"></i>
-                                    <h2 class="twitter-title">@itsariful</h2>
-                                </div>
-                                <div id="tweets"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#" class="slider-arrow right-arrow tweets-arrow"><i class="fa fa-angle-right"></i></a>
-                    <a href="#" class="slider-arrow left-arrow tweets-arrow"><i class="fa fa-angle-left"></i></a>
-                </div>
-            </section>
-            -->
-            <!-- Tweet Section end -->
-
-
             <!-- Map And Contact Section start -->
             <section class="map-section">
                 <div class="map-header-area overlay-brand">
@@ -941,77 +548,9 @@
             <!-- Contact Area start -->
             <section id="contact" class="contact scroll-section">
                 <div class="container">
-                    <a href="#" data-section="#contact" class="btn contact-location-toggle-btn wow bounce" data-wow-duration="1.5s"><i class="ion-paper-airplane"></i></a>
-                    <div class="contact-content-wrapper">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12 hidden-xxs">
-                                <div class="contact-info">
-                                    <h3 class="contact-title">Contact Info</h3>
-                                    <ul class="contact-info-lists">
-                                        <li><a href="#"><span class="btn"><i class="ion-ios-location"></i></span>PO Box 16122, Collins Street West, Victoria 8007, Australia</a></li>
-                                        <li><a href="#"><span class="btn"><i class="ion-android-call"></i></span>+880 161 661 1112</a></li>
-                                        <li><a href="#"><span class="btn"><i class="ion-android-mail"></i></span>info@bdinfosys.com</a></li>
-                                        <li><a href="#"><span class="btn"><i class="ion-android-globe"></i></span>www.bdinfosys.com</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12">
-                                <div class="contact-form cu-form">
-                                    <h3 class="contact-title visible-xxs">Contact Us</h3>
-                                    <form action="assets/inc/sendEmail.php" id="contactForm">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="input-field">
-                                                    <label for="contactName">Name</label>
-                                                    <input id="contactName" type="text" name="contactName">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="input-field">
-                                                    <label for="contactEmail">Email</label>
-                                                    <input id="contactEmail" type="text" name="contactEmail">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="input-field">
-                                                    <label for="contactSubject">Subject</label>
-                                                    <input id="contactSubject" type="text" name="contactSubject">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="input-field">
-                                                    <label for="contactMessage">Message</label>
-                                                    <textarea id="contactMessage" class="materialize-textarea" rows="4" name="contactMessage"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="">
-                                                    <input type="submit" class="btn th-btn th-btn-small th-btn-default" value="Send">
-                                                    <div class="form-message z-depth-1" style="display:none"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12 visible-xxs">
-                                <div class="contact-info">
-                                    <ul class="contact-info-lists">
-                                        <li><a href="#"><span class="btn"><i class="ion-ios-location"></i></span>PO Box 16122, Collins Street West, Victoria 8007, Australia</a></li>
-                                        <li><a href="#"><span class="btn"><i class="ion-android-call"></i></span>+880 161 661 1112</a></li>
-                                        <li><a href="#"><span class="btn"><i class="ion-android-mail"></i></span>info@bdinfosys.com</a></li>
-                                        <li><a href="#"><span class="btn"><i class="ion-android-globe"></i></span>www.bdinfosys.com</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <a href="#packages" data-section="#packages" class="btn contact-location-toggle-btn wow bounce" data-wow-duration="1.5s">
+                      <i class="ion-paper-airplane"></i>
+                    </a>
                 </div>
             </section>
             <!-- Contact Area end -->
@@ -1025,17 +564,7 @@
             <div class="top">
                 <div class="container">
                     <div class="footer-logo">
-                        <img src="img/logo-white.png" alt="logo">
-                    </div>
-                    <div class="footer-social-area">
-                        <ul class="social footer-social">
-                            <li><a href="#" class="btn"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="#" class="btn"><i class="ion-social-twitter"></i></a></li>
-                            <li><a href="#" class="btn"><i class="ion-social-googleplus"></i></a></li>
-                            <li><a href="#" class="btn"><i class="ion-social-dribbble"></i></a></li>
-                            <li><a href="#" class="btn"><i class="ion-social-pinterest"></i></a></li>
-                            <li><a href="#" class="btn"><i class="ion-social-instagram"></i></a></li>
-                        </ul>
+                        <img src="img/EduBrand.png" alt="logo">
                     </div>
                 </div>
             </div>
@@ -1071,6 +600,8 @@
         <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
         <script type="text/javascript" src="assets/js/vendor/jquery.ajaxchimp.min.js"></script>
         <script type="text/javascript" src="assets/js/vendor/gmaps.js"></script>
+        <script type="text/javascript" src="assets/js/vendor/wow.min.js"></script>
+        <script type="text/javascript" src="assets/js/vendor/jquery.nicescroll.min.js"></script>
         <script type="text/javascript" src="assets/js/vendor/isotope.pkgd.min.js"></script>
         <!-- jwPlayer -->
         <script type="text/javascript" src="assets/jwplayer/jwplayer.js"></script>

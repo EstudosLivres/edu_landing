@@ -2410,6 +2410,10 @@ main.main {
     margin-bottom: 50px;
 }
 
+.main-footer .footer-logo img {
+  max-width: 25%;
+}
+
 .main-footer .bottom {
     background-color: #171717;
     color: #666;
