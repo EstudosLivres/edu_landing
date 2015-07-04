@@ -673,6 +673,50 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-    $('.modal-trigger').leanModal();
-  });
+  // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+  $('.modal-trigger').leanModal();
+});
+
+$(function() {
+    assign_plain();
+    toggle_card_selection();
+});
+
+
+function toggle_card_selection() {
+    var img_section = $('#card_brands img');
+    img_section.click(function(){
+        var img;
+        for(img in img_section) {
+            if(isNaN(img)) break;
+            var current_img = $(img_section[img]);
+            current_img.removeClass('active');
+        }
+
+        $(this).addClass('active');
+        $($(this).parent().children('input')).prop( "checked", true );
+    });
+}
+
+function assign_plain() {
+    $('a[href="#payment_modal"]').click(function() {
+        var price_container = $($(this).parents('.pricing-container'));
+        var assign_plain_content = price_container.children('.p-t-header').children('h3').html();
+        $('#selected_plan').html(assign_plain_content);
+
+        switch(assign_plain_content) {
+            case 'Ouro':
+                var plain = 1;
+                break;
+            case 'Prata':
+                var plain = 2;
+                break;
+            case 'Bronze':
+                var plain = 3;
+                break;
+            default: break;
+        }
+
+        $('input[type="hidden"]').val(plain);
+    });
+}
