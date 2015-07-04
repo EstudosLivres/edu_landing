@@ -635,7 +635,10 @@ $(window).resize(function(){
 });
 
 
-
+$(document).ready(function(){
+	// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+	$('.modal-trigger').leanModal();
+});
 
 
 
@@ -667,3 +670,9 @@ $(window).resize(function(){
 		url: "https://coderpixel.us10.list-manage.com/subscribe/post?u=3918a7d4d5fe9e4c1baa3d912&amp;id=1a52016f23" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".
 	});
 }(jQuery));
+
+
+$(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });

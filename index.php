@@ -1,3 +1,4 @@
+<?php $checkout = ''; // TODO checkout cielo, through rents ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -90,7 +91,7 @@
                                 <li><a href="#features" data-section="#features" class="menu-smooth-scroll">Diferenciais</a></li>
                                 <!-- <li><a href="#screenshot" data-section="#screenshot" class="menu-smooth-scroll">Screens</a></li> -->
                                 <li><a href="#packages" data-section="#packages" class="menu-smooth-scroll">Preços</a></li>
-                                <li><a href="#payment-method" data-section="#payment-method" class="menu-smooth-scroll">Pagamento</a></li>
+                                <!-- <li><a href="#payment-method" data-section="#payment-method" class="menu-smooth-scroll">Pagamento</a></li> -->
                                 <!-- <li><a href="#download" data-section="#download" class="menu-smooth-scroll">Download</a></li> -->
                                 <li><a href="#team" data-section="#team" class="menu-smooth-scroll">Professor</a></li>
                                 <!-- <li><a href="#blog" data-section="#blog" class="menu-smooth-scroll">Blog</a></li> -->
@@ -142,6 +143,7 @@
                             <div class="row">
                                 <div class="col-sm-12">
                                     <h2 class="heading">Desenvolvimento de Jogos 2D para dispositivos móveis</h2>
+                                    <h2 class="white-text">21 - 31/07/2015</h2>
                                     <h3 class="sub-heading" id="banner-slider-controller">Aprenda a programar desenvolvendo jogos para as maiores plataformas móveis do mundo
                                       <br>
                                       <i class="ion-social-apple"></i> <i class="ion-social-android"></i> <i class="ion-social-windows"></i>
@@ -331,7 +333,7 @@
                         </div>
                         <div class="row pricing-table-item-wrap">
                             <section class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                <div class="amber accent-4 <?php echo $text_color; ?> single-pricing-table pricing-table-style-one basic wow fadeInUpSmall" data-wow-offset="200">
+                                <div class="amber accent-4 single-pricing-table pricing-table-style-one basic wow fadeInUpSmall" data-wow-offset="200">
                                     <div class="pricing-container">
                                         <div class="p-t-header white-text">
                                             <h3 class="pricing-title">Ouro</h3>
@@ -345,6 +347,7 @@
                                                 <li> <i class="fa fa-check"></i> Consultoria</li>
                                                 <li> <i class="fa fa-check"></i> Indicação</li>
                                                 <li> <i class="fa fa-check"></i> Certificado</li>
+                                                <li> <i class="fa fa-check"></i> Carga: 24H em 8 encontros de 3H</li>
                                                 <li> <i class="fa fa-check"></i> Plataform Virtual de Auxílio</li>
                                                 <li> <i class="fa fa-check"></i> Plataform Virtual de Acompanhamento de Rendimento</li>
                                                 <li> <i class="fa fa-check"></i> 10h de aulas extras virtual</li>
@@ -355,7 +358,7 @@
                                               <div class="price"><span class="currency">R$</span><span>1.500,00</span></div>
                                             </div>
                                             <div class="button">
-                                                <button class="btn th-btn th-btn-medium th-btn-parent white deep-purple-text">Select</button>
+                                                <a href='#payment_modal' class="modal-trigger btn th-btn th-btn-medium th-btn-parent white deep-purple-text">Assinar</a>
                                             </div>
                                         </div>
                                     </div>
@@ -373,6 +376,7 @@
                                                 <li> <i class="fa fa-check"></i> Material Didático</li>
                                                 <li> <i class="fa fa-check"></i> Monitoria</li>
                                                 <li> <i class="fa fa-check"></i> Certificado</li>
+                                                <li> <i class="fa fa-check"></i> Carga: 24H em 8 encontros de 3H</li>
                                                 <li> <i class="fa fa-check"></i> Plataform Virtual de Acompanhamento de Rendimento</li>
                                                 <li> <i class="fa fa-check"></i> 5h de aulas extras virtual</li>
                                             </ul>
@@ -382,7 +386,7 @@
                                               <div class="price"><span class="currency">R$</span><span>1.000,00</span></div>
                                             </div>
                                             <div class="button">
-                                                <button class="btn th-btn th-btn-medium th-btn-parent white deep-purple-text">Select</button>
+                                                <a href='#payment_modal' class="modal-trigger btn th-btn th-btn-medium th-btn-parent white deep-purple-text">Assinar</a>
                                             </div>
                                         </div>
                                     </div>
@@ -399,6 +403,7 @@
                                               <li> <i class="fa fa-check"></i> Material Didático</li>
                                               <li> <i class="fa fa-check"></i> Monitoria</li>
                                               <li> <i class="fa fa-check"></i> Certificado</li>
+                                              <li> <i class="fa fa-check"></i> Carga: 24H em 8 encontros de 3H</li>
                                           </ul>
                                         </div>
                                         <div class="p-t-footer clearfix white-text">
@@ -406,7 +411,7 @@
                                               <div class="price"><span class="currency">R$</span><span>750,00</span></div>
                                             </div>
                                             <div class="button">
-                                                <button class="btn th-btn th-btn-medium th-btn-parent white deep-purple-text">Select</button>
+                                                <a href='#payment_modal' class="modal-trigger btn th-btn th-btn-medium th-btn-parent white deep-purple-text">Assinar</a>
                                             </div>
                                         </div>
                                     </div>
@@ -420,6 +425,7 @@
 
 
             <!-- Special Payment conditions -->
+            <!--
             <section id="payment-method" class="special-offer section-space-top hidden-overflow section-bg-01">
                 <div class="container">
                     <div class="offer-content-wrapper clearfix">
@@ -442,6 +448,7 @@
                     </div>
                 </div>
             </section>
+            -->
             <!-- Special Payment conditions -->
 
 
@@ -576,7 +583,101 @@
         </footer>
         <!-- Footer area end -->
 
+        <!-- PaymentModal -->
+        <div id="payment_modal" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4 class="center">Assinatura do Plano: <span id="selected_plan">Ouro</span></h4>
+            <hr>
 
+            <!-- Form which send it to local action where the Rent$ comunication happens -->
+            <div class="row">
+              <form class="col s12" action="index.html" method="post">
+                <!-- Student -->
+                <div class="row">
+                  <div class="col s12 m12">
+                     <div class="card">
+                       <div class="card-content blue-grey-text">
+                         <div class="row">
+                           <div class="input-field col s12">
+                             <input id="full_name" name="full_name" type="text" class="validate">
+                             <label for="full_name">Nome Completo</label>
+                           </div>
+                         </div>
+
+                         <div class="row">
+                           <div class="input-field col s12">
+                             <input id="email" name="email" type="email" class="validate">
+                             <label for="email">E-mail</label>
+                           </div>
+                         </div>
+
+                         <div class="row">
+                           <div class="input-field col s12">
+                             <input id="legal_id" name="legal_id" type="text" class="validate">
+                             <label for="legal_id">CPF</label>
+                           </div>
+                         </div>
+
+                         <div class="row">
+                           <div class="input-field col s12">
+                             <h6 id="brand_card_title">Bandeira do Cartão:</h6><hr>
+                             <div class="row">
+                               <div class="col l2 s2">
+                                 <!-- <label> -->
+                                   <input type="radio" name="brand_card" id="visa" value="visa" />
+                                   <img src="img/brand_cards/visa.png" />
+                                 <!-- </label> -->
+                               </div>
+
+                               <div class="col l2 s2">
+                                 <!-- <label> -->
+                                   <input type="radio" name="brand_card" id="mastercard" value="mastercard" />
+                                   <img src="img/brand_cards/mastercard.png" />
+                                 <!-- </label> -->
+                               </div>
+
+                               <div class="col l2 s2">
+                                 <!-- <label> -->
+                                   <input type="radio" name="brand_card" id="amex" value="amex" />
+                                   <img src="img/brand_cards/amex.png" />
+                                 <!-- </label> -->
+                               </div>
+
+                               <div class="col l2 s2">
+                                 <!-- <label> -->
+                                   <input type="radio" name="brand_card" id="elo" value="elo" />
+                                   <img src="img/brand_cards/elo.png" />
+                                 <!-- </label> -->
+                               </div>
+
+                               <div class="col l2 s2">
+                                 <!-- <label> -->
+                                   <input type="radio" name="brand_card" id="discover" value="discover" />
+                                   <img src="img/brand_cards/discover.png" />
+                                 <!-- </label> -->
+                               </div>
+
+                               <div class="col l2 s2">
+                                 <!-- <label> -->
+                                   <input type="radio" name="brand_card" id="aura" value="aura" />
+                                   <img src="img/brand_cards/aura.png" />
+                                 <!-- </label> -->
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+          </div>
+        </div>
+        <!-- /PaymentModal -->
 
         <script>window.jQuery || document.write('<script type="text/javascript" src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 

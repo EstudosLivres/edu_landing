@@ -769,7 +769,7 @@ main.main {
     font-size: 50px;
     color: #fff;
     line-height: 1.18;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     letter-spacing: 2px;
     font-weight: bold;
 }
@@ -794,7 +794,7 @@ main.main {
     font-size: 17px;
     font-weight: 300;
     line-height: 1.9;
-    margin-top: 55px;
+    margin-top: 5px;
 }
 .banner .sub-heading a {
     color: #fff;
@@ -2438,10 +2438,18 @@ main.main {
     color: #fff;
 }
 
+#lean-overlay {
+  z-index: 890 !important;
+}
 
+.modal#payment_modal {
+    max-height: auto;
+    min-height: 85%;
+}
 
-
-
+#brand_card_title {
+  margin-top: -15px;
+}
 
 /* ====================================================
    Some Helper Styles
