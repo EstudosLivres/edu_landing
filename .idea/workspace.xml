@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db9e8495-0b98-4e81-a8e3-8e7b3514053d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rents.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/common.js" afterPath="$PROJECT_DIR$/assets/js/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rents/charge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checkout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rents/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rents/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rents/params.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/rents.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing.phtml" afterPath="$PROJECT_DIR$/landing.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="$PROJECT_DIR$/assets/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/payment.php" afterPath="$PROJECT_DIR$/payment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/inc/sendEmail.php" afterPath="$PROJECT_DIR$/assets/inc/sendEmail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="edu_landing.iws" />
@@ -35,17 +38,37 @@
         <entry file="file://$PROJECT_DIR$/payment.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.625">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rents.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rents.php">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rents/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.125">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.13761468">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="params.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rents/params.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.875">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="charge.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rents/charge.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.75">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -54,50 +77,18 @@
       <file leaf-file-name="landing.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/landing.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.833333">
-              <caret line="738" column="115" selection-start-line="738" selection-start-column="111" selection-end-line="738" selection-end-column="115" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#center#0;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.444445">
-              <caret line="740" column="34" selection-start-line="740" selection-start-column="32" selection-end-line="740" selection-end-column="34" />
+            <state vertical-scroll-proportion="-14.583333">
+              <caret line="687" column="62" selection-start-line="687" selection-start-column="62" selection-end-line="687" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/common.js">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rents/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.037037">
-              <caret line="428" column="37" selection-start-line="428" selection-start-column="34" selection-end-line="428" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sendEmail.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/inc/sendEmail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61926603">
-              <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2291" column="20" selection-start-line="2291" selection-start-column="20" selection-end-line="2291" selection-end-column="20" />
+            <state vertical-scroll-proportion="-1.875">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -116,12 +107,18 @@
         <option value="$PROJECT_DIR$/www/landing.phtml" />
         <option value="$PROJECT_DIR$/www/index.php" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/landing.phtml" />
-        <option value="$PROJECT_DIR$/payment.php" />
-        <option value="$PROJECT_DIR$/rents.php" />
-        <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/assets/js/common.js" />
         <option value="$PROJECT_DIR$/assets/inc/sendEmail.php" />
+        <option value="$PROJECT_DIR$/landing.phtml" />
+        <option value="$PROJECT_DIR$/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/rents.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/rents/main.php" />
+        <option value="$PROJECT_DIR$/payment.php" />
+        <option value="/usr/local/etc/php/5.5/php.ini" />
+        <option value="$PROJECT_DIR$/rents/params.php" />
+        <option value="$PROJECT_DIR$/rents/charge.php" />
+        <option value="$PROJECT_DIR$/rents/config.php" />
       </list>
     </option>
   </component>
@@ -196,7 +193,7 @@
     <property name="FullScreen" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -204,10 +201,11 @@
       <recent name="$PROJECT_DIR$/www" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rents" />
       <recent name="$PROJECT_DIR$/www" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Built-in Web Server.edu_landing:development">
+  <component name="RunManager" selected="PHP Web Application.edu_landing:web_app">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -271,9 +269,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35312024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7422096" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26655897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -299,7 +297,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -312,7 +310,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rents.php">
+    <entry file="file://$PROJECT_DIR$/rents/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -324,9 +322,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="593" column="61" selection-start-line="593" selection-start-column="55" selection-end-line="593" selection-end-column="61" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#center#0;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -354,49 +350,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-4.1327434">
           <caret line="2291" column="20" selection-start-line="2291" selection-start-column="20" selection-end-line="2291" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.125">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/payment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/landing.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.833333">
-          <caret line="738" column="115" selection-start-line="738" selection-start-column="111" selection-end-line="738" selection-end-column="115" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#center#0;n#div#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.444445">
-          <caret line="740" column="34" selection-start-line="740" selection-start-column="32" selection-end-line="740" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.037037">
+        <state vertical-scroll-proportion="0.33333334">
           <caret line="428" column="37" selection-start-line="428" selection-start-column="34" selection-end-line="428" selection-end-column="37" />
           <folding />
         </state>
@@ -406,6 +368,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61926603">
           <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.088495575">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44837758">
+          <caret line="715" column="29" selection-start-line="715" selection-start-column="29" selection-end-line="715" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/etc/php/5.5/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47050148">
+          <caret line="719" column="24" selection-start-line="719" selection-start-column="24" selection-end-line="719" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.583333">
+          <caret line="687" column="62" selection-start-line="687" selection-start-column="62" selection-end-line="687" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rents/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rents/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rents/charge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rents/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13761468">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding />
         </state>
       </provider>

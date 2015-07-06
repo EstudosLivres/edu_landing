@@ -707,13 +707,13 @@ function assign_plain() {
 
         switch(assign_plain_content) {
             case 'Ouro':
-                var plain = 1;
+                var plain = 0;
                 break;
             case 'Prata':
-                var plain = 2;
+                var plain = 1;
                 break;
             case 'Bronze':
-                var plain = 3;
+                var plain = 2;
                 break;
             default: break;
         }
