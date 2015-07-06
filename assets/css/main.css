@@ -2288,7 +2288,7 @@ main.main {
 
 .contact .contact-content-wrapper {
     padding-top: 110px;
-    display: none;
+    /*display: none;*/
     padding-bottom: 120px;
 }
 .contact-title {

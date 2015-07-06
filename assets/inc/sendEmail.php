@@ -13,19 +13,19 @@ if($_POST) {
 
 	// Check Name
 	if (strlen($name) < 2) {
-		$error['name'] = "Please enter your name.";
+		$error['name'] = "Por favor, informe seu nome.";
 	}
 	// Check Email
 	if (!preg_match('/^[a-z0-9&\'\.\-_\+]+@[a-z0-9\-]+\.([a-z0-9\-]+\.)*+[a-z]{2}/is', $email)) {
-		$error['email'] = "Please enter a valid email address.";
+		$error['email'] = "Por favor, insira um e-mail válido.";
 	}
 	// Check Message
-	if (strlen($contact_message) < 15) {
-		$error['message'] = "Your message should have at least 15 characters.";
+	if (strlen($contact_message) < 5) {
+		$error['message'] = "Verifique se você digitou sua mensagem.";
 	}
 	// Subject
 	if ($subject == '') {
-		$subject = "Contact Form Submission";
+		$subject = "Rent$ Edu Contact Form Submission";
 	}
 
 

@@ -678,6 +678,7 @@ $(document).ready(function(){
 });
 
 $(function() {
+    payment_form();
     assign_plain();
     toggle_card_selection();
 });
@@ -718,5 +719,37 @@ function assign_plain() {
         }
 
         $('input[type="hidden"]').val(plain);
+    });
+}
+
+var form_tested = false;
+var submitPayment = false;
+function payment_form() {
+    var formSelector = $('form#payment');
+
+    formSelector.submit(function(event){
+        var allInputsOK = true;
+        var cardRadioSelected = false;
+
+        if(!submitPayment) event.preventDefault();
+        if(form_tested && !submitPayment) {
+            form_tested = false;
+            Materialize.toast('Verifique os campos do formulário de pagamento!', 3000, 'rounded');
+            return;
+        }
+
+        var paymentInputs = formSelector[0];
+
+        for(var i = 0; i < paymentInputs.length; i++) {
+            var currentInput = $(paymentInputs[i]);
+            var currentValue = currentInput.val();
+
+            if(currentInput.attr('type') == 'radio') if(currentInput.is(':checked')) cardRadioSelected = true;
+            if(currentValue == undefined || currentValue == null || currentValue.length == 0) allInputsOK = false;
+        }
+
+        if(allInputsOK && cardRadioSelected) submitPayment = true;
+        form_tested = true;
+        formSelector.submit();
     });
 }

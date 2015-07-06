@@ -144,7 +144,7 @@ $(document).ready(function(){
 
 	$('#contactForm').on('submit', function(e){
 		e.preventDefault();
-		$.fn.button.Constructor.DEFAULTS.loadingText = "Sending...";
+		$.fn.button.Constructor.DEFAULTS.loadingText = "Enviando...";
 
 		var $submitBtn = $(this).find('input[type="submit"]'),
 			$messageArea = $(this).find('.form-message');
