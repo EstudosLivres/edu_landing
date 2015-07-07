@@ -38,7 +38,7 @@ if(in_array($_SERVER['REMOTE_ADDR'], $localhost)) {
 
     // Localhost credentials
     $app_id = '31';
-    $secret_key = '$2a$10$OrEPgYmX6JWkA/S78gvN3eF4NoI7yxWlWBSZ9UVh0RmejktKGVcQS';
+    $secret_key = '$2a$10$VT7VMzto1GtVQa6BrCZ5TOKDAeIj09mZ0z/PZmVc7DrdVJjlJux1i';
 }
 
 $rents_checkout_url = "$rents_domain/$rents_checkout_path";
