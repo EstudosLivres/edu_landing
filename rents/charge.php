@@ -1,4 +1,7 @@
 <?php
+require_once 'config.php';
+require_once 'params.php';
+
 // use key 'http' even if you send the request to https://...
 $options = array(
     'http' => array(

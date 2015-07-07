@@ -1,2 +1,2 @@
 <?php
-require_once 'rents/main.php';
+require_once 'rents/charge.php';

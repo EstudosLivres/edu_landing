@@ -730,14 +730,6 @@ function payment_form() {
     formSelector.submit(function(event){
         var allInputsOK = true;
         var cardRadioSelected = false;
-
-        if(!submitPayment) event.preventDefault();
-        if(form_tested && !submitPayment) {
-            form_tested = false;
-            Materialize.toast('Verifique os campos do formulário de pagamento!', 3000, 'rounded');
-            return;
-        }
-
         var paymentInputs = formSelector[0];
 
         for(var i = 0; i < paymentInputs.length; i++) {
@@ -750,6 +742,12 @@ function payment_form() {
 
         if(allInputsOK && cardRadioSelected) submitPayment = true;
         form_tested = true;
-        formSelector.submit();
+
+        if(!submitPayment) event.preventDefault();
+        if(form_tested && !submitPayment) {
+            form_tested = false;
+            Materialize.toast('Verifique os campos do formulário de pagamento!', 3000, 'rounded');
+            return;
+        }
     });
 }

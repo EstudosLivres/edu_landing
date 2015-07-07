@@ -11,14 +11,17 @@ $card_params = array('brand'=>$payment_data['card_brand']);
 
 // Amount params to send to Rent$
 $plains = array(150000, 100000, 75000);
-$plains_names = array('gold', 'silver', 'cooper');
+$plains_names = array('Ouro', 'Prata', 'Bronze');
 $plains_description = array('top plain', 'medium plain', 'basic plain');
-$amount = $plains[$payment_data['transaction_amount']];
+
+$index_plain = 0;
+if(is_numeric($payment_data['transaction_amount'])) $index_plain = $payment_data['transaction_amount'];
+$amount = $plains[$index_plain];
 
 $sold_items = array(
     'remote_id'   => $payment_data['transaction_amount'],
-    'name'        => $plains_names[$payment_data['transaction_amount']],
-    'description' => $plains_description[$payment_data['transaction_amount']]
+    'name'        => "Desenvolvimento de Jogos Módulo I - $plains_names[$index_plain]",
+    'description' => "$plains_description[$index_plain]: veja os detaalhes em nossa página principal: edu.rents.com.br"
 );
 
 $credentials = array(
