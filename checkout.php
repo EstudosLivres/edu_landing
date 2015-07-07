@@ -72,6 +72,14 @@
 
             <div class="card-panel">
 
+                <?php if($response->status->name == 'error') { ?>
+                    <h1 class="center">Ocorreu um erro com a sua compra.</h1>
+                    <h4 class="center"">
+                        <a href="<?php echo $landing_domain; ?>">Tente novamente</a>
+                    </h4>
+                    <?php die; ?>
+                <?php } ?>
+
                 <!-- Logo -->
                 <div class="row invoice-top">
                     <div class="col s12 m6">
