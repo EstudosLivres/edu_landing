@@ -72,7 +72,7 @@
 
             <div class="card-panel">
 
-                <?php if($response->status->name == 'error') { ?>
+                <?php if($response->status->name != 'charged') { ?>
                     <h1 class="center">Ocorreu um erro com a sua compra.</h1>
                     <h4 class="center"">
                         <a href="<?php echo $landing_domain; ?>">Tente novamente</a>
