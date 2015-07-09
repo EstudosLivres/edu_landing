@@ -20,7 +20,7 @@ $rents_check_payment_path = "api/v1/transactions/$rid";
 // URLs Local (dev/test) & remote
 $local_landing = 'http://localhost:8000';
 $remote_landing = 'http://edu.rents.com.br';
-$landing_checkout_path = 'checkout.php';
+$landing_checkout_path = 'checkout-backup.php';
 
 // Build the URLs (redirect_link & Rent$)
 if(in_array($_SERVER['REMOTE_ADDR'], $localhost)) {
@@ -30,7 +30,7 @@ if(in_array($_SERVER['REMOTE_ADDR'], $localhost)) {
 
     // Localhost credentials
     $app_id = '4';
-    $secret_key = '$2a$10$PWzoYYtoQO1kgPqNlg28KOTkatz5rVva0K7EwAYa6nKaKV7zTXWV2';
+    $secret_key = '$2a$10$vhjAZi1lyXB5xQRAvGl2pesxIWEU/yhhDQlaTAROykvgvag4SsQeK';
 }else {
     // Localhost URLs
     $rents_domain   = $remote_rents;

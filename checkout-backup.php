@@ -1,3 +1,6 @@
+<?php require 'functions.php' ?>
+<?php require 'rents/check_payment.php' ?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>  <html class="lt-ie7"> <![endif]-->
 <!--[if IE 7]>     <html class="lt-ie8"> <![endif]-->
@@ -68,6 +71,15 @@
         <section class="content-wrap ecommerce-invoice">
 
             <div class="card-panel">
+
+                <?php if($response->status->name != 'charged') { ?>
+                    <h1 class="center">Ocorreu um erro com a sua compra.</h1>
+                    <h4 class="center"">
+                        <a href="<?php echo $landing_domain; ?>">Tente novamente</a>
+                    </h4>
+                    <?php die; ?>
+                <?php } ?>
+
                 <!-- Logo -->
                 <div class="row invoice-top">
                     <div class="col s12 m6">
@@ -94,16 +106,73 @@
                     </div>
                     <!-- /Invoice From -->
 
+                    <!-- Invoice To -->
+                    <div class="col s12 l4">
+                        Comprovante para:
+                        <h4><?php echo $response->client->name; ?></h4>
+                        <address>
+                            <?php echo $response->client->email; ?>
+                            <br><i class="fa fa-credit-card"></i> <strong class=""><?php echo $response->credit_card; ?></strong>
+                            <br><i class="mdi-action-picture-in-picture"></i> <?php echo format_cpf($response->client->legal_id); ?>
+                        </address>
+                    </div>
+                    <!-- /Invoice To -->
+
                     <!-- Invoice Number and Date -->
-                    <div class="col s12 offset-l3 l5">
-                        <div class="invoice-num teal light-blue-text lighten-5 center">
-                            <h5>
-                                Aguarde a Confirmação do pagamento em seu e-mail.
-                            </h5>
+                    <div class="col s12 l4">
+                        <div class="invoice-num">
+                            <div class="num">Number: <span class="right"><strong><?php echo $_GET['rid']; ?></strong></span>
+                            </div>
+                            <h4>
+                                <div class="date">
+                                    Date:
+                                    <span class="right">
+                                        <?php echo $bought_at; ?>
+                                    </span>
+                                </div>
+                            </h4>
                         </div>
                     </div>
                     <!-- /Invoice Number and Date -->
                 </div>
+                <br>
+
+                <!-- Table with products -->
+                <div class="row">
+                    <div class="col s12">
+
+                        <div class="table-responsive">
+                            <table class="table table-responsive invoice-table">
+                                <thead>
+                                    <tr>
+                                        <th>Imagem</th>
+                                        <th>Descrição</th>
+                                        <th class="center-align">Quantidade</th>
+                                        <th class="center-align">Preço</th>
+                                        <th class="right-align">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <img src="img/iphone-01-EDITED.png" class="rotate" alt="">
+                                        </td>
+                                        <td>
+                                            <strong> <?php echo $sold_item->name; ?> </strong>
+                                            <div class="grey-text"> <?php echo $sold_item->description; ?> </div>
+                                        </td>
+                                        <td class="center-align"> <?php echo count($response->sold_items); ?> </td>
+                                        <td class="center-align"> R$ <?php echo $amount_formatted; ?> </td>
+                                        <td class="right-align"> R$ <?php echo $amount_formatted; ?> </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- /Table with products -->
+
             </div>
 
             <br>

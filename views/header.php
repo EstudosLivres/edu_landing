@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Rent$ Payments - Educational</title>
+        <title>Rent$ Payments - Educational - Desenvolvimento de Jogos 2D </title>
 
         <meta name="description" content="Curso presencial em Brasília de Jogos Digitais para o Ensino médio">
 
@@ -43,5 +43,10 @@
         <script src="assets/js/vendor/html5shiv.js"></script>
         <![endif]-->
 
+        <style>
+            .hide {
+                display: none;
+            }
+        </style>
     </head>
     <body>

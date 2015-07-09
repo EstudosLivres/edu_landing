@@ -10,7 +10,7 @@ $clients = array(
 $card_params = array('brand'=>$payment_data['card_brand']);
 
 // Amount params to send to Rent$
-$plains = array(150000, 100000, 75000);
+$plains = array(100, 100, 100); //150000, 100000, 75000
 $plains_names = array('Ouro', 'Prata', 'Bronze');
 $plains_description = array('top plain', 'medium plain', 'basic plain');
 

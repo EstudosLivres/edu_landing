@@ -307,10 +307,15 @@
                                         </div>
                                         <div class="p-t-footer clearfix white-text">
                                             <div class="row">
-                                                <div class="price"><span class="currency">R$</span><span>1.500,00</span></div>
+                                                <div class="price"><span class="currency">R$</span><span>1,00</span></div>
                                             </div>
                                             <div class="button">
-                                                <a href='#payment_modal' class="modal-trigger btn th-btn th-btn-medium th-btn-parent white deep-purple-text">Assinar</a>
+                                                <form method='post' action='https://cieloecommerce.cielo.com.br/transactional/order/buynow' target='blank'>
+                                                    <input type='hidden' name='id' value='0bbbe95f-71cb-4f0a-bf89-e17a5b2228c3' />
+                                                    <input type="hidden" name="MID" value="11f39b3b-58b8-4de7-a08a-f455356fc234" />
+                                                    <input class="hide" type='image' name='submit' alt='Comprar' src='https://cieloecommerce.cielo.com.br/backoffice/Content/img/buttons/button-5-1.png' />
+                                                    <button type="submit" class="btn th-btn th-btn-medium th-btn-parent white deep-purple-text">Assinar</button>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
@@ -335,10 +340,15 @@
                                         </div>
                                         <div class="p-t-footer clearfix white-text">
                                             <div class="row">
-                                                <div class="price"><span class="currency">R$</span><span>1.000,00</span></div>
+                                                <div class="price"><span class="currency">R$</span><span>1,00</span></div>
                                             </div>
                                             <div class="button">
-                                                <a href='#payment_modal' class="modal-trigger btn th-btn th-btn-medium th-btn-parent white deep-purple-text">Assinar</a>
+                                                <form method='post' action='https://cieloecommerce.cielo.com.br/transactional/order/buynow' target='blank'>
+                                                    <input type='hidden' name='id' value='b4e6ece7-7592-456a-89ac-edc1585ffb07' />
+                                                    <input type="hidden" name="MID" value="11f39b3b-58b8-4de7-a08a-f455356fc234" />
+                                                    <input class="hide" type='image' name='submit' alt='Comprar' src='https://cieloecommerce.cielo.com.br/backoffice/Content/img/buttons/button-5-1.png' />
+                                                    <button type="submit" class="btn th-btn th-btn-medium th-btn-parent white deep-purple-text">Assinar</button>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
@@ -360,10 +370,15 @@
                                         </div>
                                         <div class="p-t-footer clearfix white-text">
                                             <div class="row">
-                                                <div class="price"><span class="currency">R$</span><span>750,00</span></div>
+                                                <div class="price"><span class="currency">R$</span><span>1,00</span></div>
                                             </div>
                                             <div class="button">
-                                                <a href='#payment_modal' class="modal-trigger btn th-btn th-btn-medium th-btn-parent white deep-purple-text">Assinar</a>
+                                                <form method='post' action='https://cieloecommerce.cielo.com.br/transactional/order/buynow' target='blank'>
+                                                    <input type='hidden' name='id' value='2193a227-a1ab-4a23-a29a-fad64b556283' />
+                                                    <input type="hidden" name="MID" value="11f39b3b-58b8-4de7-a08a-f455356fc234" />
+                                                    <input class="hide" type='image' name='submit' alt='Comprar' src='https://cieloecommerce.cielo.com.br/backoffice/Content/img/buttons/button-5-1.png' />
+                                                    <button type="submit" href='#payment_modal' class="btn th-btn th-btn-medium th-btn-parent white deep-purple-text">Assinar</button>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
@@ -524,6 +539,7 @@
                                     </ul>
                                 </div>
                             </div>
+
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12">
                                 <div class="contact-form cu-form">
                                     <h3 class="contact-title visible-xxs">Contact Us</h3>
@@ -571,6 +587,7 @@
                                     </form>
                                 </div>
                             </div>
+
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-12 visible-xxs">
                                 <div class="contact-info">
                                     <ul class="contact-info-lists">
@@ -614,10 +631,9 @@
                 <h4 class="center">Assinatura do Plano: <span id="selected_plan">Ouro</span></h4>
                 <hr>
 
-                <!-- Form which send it to local action where the Rent$ comunication happens -->
+                <!-- Form which send it to local action where the Rent$ communication happens
                 <div class="row">
                     <form id="payment" class="col s12" action="payment.php" method="post">
-                        <!-- Student -->
                         <div class="row">
                             <div class="col s12 m12">
                                 <div class="card">
@@ -685,6 +701,7 @@
                                 </div>
                             </div>
                         </div>
+                    -->
                 </div>
             </div>
             <div class="modal-footer">
