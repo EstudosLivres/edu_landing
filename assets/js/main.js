@@ -530,7 +530,11 @@ if ( $mapWrapper.length > 0 ) {
 
 
 // callback after ready the document
-$(document).ready(function(){});
+$(document).ready(function(){
+	$('#mobile-nav li').click(function(){
+		$('.close-menu').trigger('click');
+	});
+});
 
 // callback after loading the window
 $(window).load(function(){
