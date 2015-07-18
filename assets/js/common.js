@@ -156,12 +156,12 @@ $(document).ready(function(){
 			url: $('#contactForm').attr('action'),
 			data: data
 		}).done(function(msg){
-
+			var auxMsg = msg.substr(0,2);
 			var hand = setTimeout(function(){
 				$submitBtn.button('reset');
 				// Message was sent
-				if (msg == 'OK') {
-					var successMsg = "Thanks for contact us";
+				if (auxMsg == 'OK') {
+					var successMsg = "Obrigado pelo contato. Responderemos o mais breve possível!";
 					$messageArea.html("<p>"+successMsg+"</p>").removeClass('error').addClass('success').slideDown();
 				}
 				// There was an error
