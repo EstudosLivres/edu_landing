@@ -153,7 +153,7 @@ $(document).ready(function(){
 		var data = $(this).serialize();
 		$.ajax({
 			type: "POST",
-			url: "assets/inc/sendEmail.php",
+			url: $('#contactForm').attr('action'),
 			data: data
 		}).done(function(msg){
 
